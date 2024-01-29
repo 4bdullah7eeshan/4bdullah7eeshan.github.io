@@ -1,7 +1,0 @@
----
-title: "A place for my half-baked thoughts..."
-toc: false
-page-layout: full
-sidebar: true
-navbar: true
----
