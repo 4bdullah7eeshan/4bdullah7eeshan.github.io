@@ -27,3 +27,7 @@ banner: true
 <a href="https://github.com/4bdullah7eeshan/messaging-app-backend" class="btn" role="button">{{< iconify fa github >}} Backend</a>
 <a href="https://github.com/4bdullah7eeshan/messaging-app-frontend" class="btn" role="button">{{< iconify fa github >}} Frontend</a>
 </span>
+
+::: {.callout-note}
+Project Description will be added soon.
+:::
