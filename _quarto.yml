@@ -38,7 +38,7 @@ website:
     border: true
 format:
   html:
-    theme: cosmo
+    theme: default
     toc: true
     page-layout: full
 

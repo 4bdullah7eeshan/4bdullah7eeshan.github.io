@@ -1,6 +1,7 @@
 ---
 title: "Abdullah Zeeshan"
 about:
+  id: about
   template: jolla
   image: utils/profile.png
   links:
@@ -24,9 +25,9 @@ listing:
       - "title asc"
 ---
 
-My name is Abdullah Zeeshan, and I am a passionate Full Stack Developer from Hyderabad, India. Before diving into tech, I worked as a Math educator with various educational organizations, such as NGOs, schools, and ed-tech startups.
 
-## Tech Stack
+:::{#about}
+My name is Abdullah Zeeshan, and I am a passionate Full Stack Developer from Hyderabad, India. Before diving into tech, I worked as a Math educator with various educational organizations, such as NGOs, schools, and ed-tech startups.
 
 <div style= "display: flex; justify-content: center; align-items: center;">
 <table>
@@ -254,6 +255,7 @@ My name is Abdullah Zeeshan, and I am a passionate Full Stack Developer from Hyd
   </tr>
 </table>
 </div>
+:::
 
 ## Recent Projects
 

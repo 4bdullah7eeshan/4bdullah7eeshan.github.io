@@ -11,7 +11,7 @@
     "href": "index.html",
     "title": "Abdullah Zeeshan",
     "section": "",
-    "text": "My name is Abdullah Zeeshan, and I am a passionate Full Stack Developer from Hyderabad, India. Before diving into tech, I worked as a Math educator with various educational organizations, such as NGOs, schools, and ed-tech startups."
+    "text": "My name is Abdullah Zeeshan, and I am a passionate Full Stack Developer from Hyderabad, India. Before diving into tech, I worked as a Math educator with various educational organizations, such as NGOs, schools, and ed-tech startups.\n\n\n\n\n HTML\n\n\n CSS\n\n\n JavaScript\n\n\n Node.js\n\n\n Webpack\n\n\n Babel\n\n\n ESLint\n\n\n Jest\n\n\n\n\n Vite\n\n\n React\n\n\n React Router\n\n\n Bootstrap\n\n\n Foundation\n\n\n Tailwind\n\n\n Material UI\n\n\n p5jS\n\n\n\n\n Vitest\n\n\n Express\n\n\n PostgreSQL\n\n\n Prisma\n\n\n Git\n\n\n Postman\n\n\n VS Code\n\n\n Ubuntu\n\n\n\n\n \n  \n   \n  \n    \n     Github\n  \n  \n    \n     LinkedIn"
   },
   {
     "objectID": "index.html#background",
@@ -207,6 +207,6 @@
     "href": "index.html#recent-projects",
     "title": "Abdullah Zeeshan",
     "section": "Recent Projects",
-    "text": "Recent Projects\nView all projects here\n\n\n\n\n\n\n\n\n\n\nMessaging App\n\n\nFull Stack\n\n\n\nNode.js\n\n\nExpress\n\n\nPostgreSQL\n\n\nPrisma ORM\n\n\nREST API\n\n\nJWT\n\n\nPassport\n\n\nReact\n\n\nTailwind\n\n\n\nWeb-based messaging app where authenticated users can chat one-one by sending and receiving messages and files.\n\n\n\n\n\n\n\n\n\n\n\nBlog API\n\n\nBackend\n\n\n\nNode.js\n\n\nExpress\n\n\nPostgreSQL\n\n\nPrisma ORM\n\n\nREST API\n\n\nJWT\n\n\nPassport\n\n\n\nAn API-only backend for blogging platforms, featuring two front-ends: one for readers, and another for authors.\n\n\n\n\n\n\n\n\n\n\n\n\n\nFile Uploader\n\n\nFull Stack\n\n\n\nNode.js\n\n\nExpress\n\n\nPostgreSQL\n\n\nPrisma ORM\n\n\nPassport\n\n\nEJS\n\n\nCloudinary\n\n\n\nCloud storage application enabling authenticated users to upload files and organize them into folders.\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Recent Projects\nView all projects here!\n\n\n\n\n\n\n\n\n\n\nMessaging App\n\n\nFull Stack\n\n\n\nNode.js\n\n\nExpress\n\n\nPostgreSQL\n\n\nPrisma ORM\n\n\nREST API\n\n\nJWT\n\n\nPassport\n\n\nReact\n\n\nTailwind\n\n\n\nWeb-based messaging app where authenticated users can chat one-one by sending and receiving messages and files.\n\n\n\n\n\n\n\n\n\n\n\nBlog API\n\n\nBackend\n\n\n\nNode.js\n\n\nExpress\n\n\nPostgreSQL\n\n\nPrisma ORM\n\n\nREST API\n\n\nJWT\n\n\nPassport\n\n\n\nAn API-only backend for blogging platforms, featuring two front-ends: one for readers, and another for authors.\n\n\n\n\n\n\n\n\n\n\n\n\n\nFile Uploader\n\n\nFull Stack\n\n\n\nNode.js\n\n\nExpress\n\n\nPostgreSQL\n\n\nPrisma ORM\n\n\nPassport\n\n\nEJS\n\n\nCloudinary\n\n\n\nCloud storage application enabling authenticated users to upload files and organize them into folders.\n\n\n\n\n\n\n\nNo matching items"
   }
 ]
