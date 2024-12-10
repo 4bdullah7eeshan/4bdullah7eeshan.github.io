@@ -1,19 +1,45 @@
 project:
   type: website
-
 website:
-  title: "y"
+  title: "4bdullah7eeshan"
+  favicon: images/profile.png
+  site-url: https://4bdullah7eeshan.github.io
+  description: "Portfolio"
   navbar:
+    title: "4bdullah7eeshan"
+    search: true
+    tools:
+      - icon: github
+        href: https://github.com/4bdullah7eeshan
+      - icon: rss
+        href: index.xml
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
-
+      - href: projects.qmd
+        text: Projects
+    pinned: false
+    collapse: true
+    collapse-below: lg
+    toggle-position: left
+  reader-mode: true
+  back-to-top-navigation: true
+  page-footer:
+    left: "© 2024-present, Abdullah Zeeshan"
+    center: |
+      Made with &hearts; using [![](https://quarto.org/quarto.png){fig-alt="Quarto" width=65px}](https://quarto.org)
+    right:
+      - icon: github
+        href: https://github.com/4bdullah7eeshan
+      - icon: rss
+        href: index.xml
+    border: true
 format:
   html:
-    theme: cosmo
-    css: styles.css
+    theme:
+      light: flatly
+      dark: darkly
     toc: true
-
+    page-layout: full
 
 
