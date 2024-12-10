@@ -1,0 +1,15 @@
+---
+title: "Oops! Page Not Found"
+subtitle: "Looks like you're lost in cyberspace!"
+description: "It seems the page you're looking for has gone on a secret vacation. Maybe it got tired of being a page and decided to explore the vast expanse of the internet. Who can blame it?"
+toc: false
+comments: false
+---
+
+But don't worry, you haven't reached a dead end. Let's get you back on track:
+
+[Return to Home Base](index.qmd) - It's safe, cozy, and we promise it's not planning any trips.
+
+[Check Out my Projects](projects.qmd) - A treasure trove of creativity and cool ideas waiting to inspire you!
+
+Happy browsing, and may your future clicks be fruitful!
