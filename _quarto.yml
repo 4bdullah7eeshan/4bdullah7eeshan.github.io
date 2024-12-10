@@ -2,7 +2,7 @@ project:
   type: website
 website:
   title: "Abdullah Zeeshan | Portfolio"
-  favicon: utils/profile.png
+  favicon: utils/favicon.png
   site-url: "https://4bdullah7eeshan.github.io"
   description: "Portfolio"
   navbar:
@@ -33,6 +33,8 @@ website:
     right:
       - icon: github
         href: https://github.com/4bdullah7eeshan
+      - icon: linkedin
+        href: https://www.linkedin.com/in/4bdullah7eeshan
       - icon: rss
         href: index.xml
     border: true
