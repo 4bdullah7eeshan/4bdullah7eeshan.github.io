@@ -1,0 +1,177 @@
+[
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Messaging App\n\n\nFull Stack\n\n\n\nNode.js\n\n\nExpress\n\n\nPostgreSQL\n\n\nPrisma ORM\n\n\nREST API\n\n\nJWT\n\n\nPassport\n\n\nReact\n\n\nTailwind\n\n\n\nWeb-based messaging app where authenticated users can chat one-one by sending and receiving messages and files.\n\n\n\n\n\n\n\n\n\n\n\nBlog API\n\n\nBackend\n\n\n\nNode.js\n\n\nExpress\n\n\nPostgreSQL\n\n\nPrisma ORM\n\n\nREST API\n\n\nJWT\n\n\nPassport\n\n\n\nAn API-only backend for blogging platforms, featuring two front-ends: one for readers, and another for authors.\n\n\n\n\n\n\n\n\n\n\n\n\n\nFile Uploader\n\n\nFull Stack\n\n\n\nNode.js\n\n\nExpress\n\n\nPostgreSQL\n\n\nPrisma ORM\n\n\nPassport\n\n\nEJS\n\n\nCloudinary\n\n\n\nCloud storage application enabling authenticated users to upload files and organize them into folders.\n\n\n\n\n\n\n\n\n\n\n\n\n\nShopping Cart\n\n\nFrontend\n\n\n\nReact\n\n\nReact Router\n\n\nRTL\n\n\nVitest\n\n\nCSS Modules\n\n\nVite\n\n\n\nA web-based e-commerce app featuring essential functionalities, including product display, cart management, and checkout.\n\n\n\n\n\n\n\n\n\n\n\n\n\nMemory Card\n\n\nFrontend\n\n\n\nReact\n\n\nVite\n\n\n\nA fun and interactive memory card game built with React, featuring dynamic card shuffling, score tracking, and Pokémon API integration.\n\n\n\n\n\n\n\n\n\n\n\n\n\nCV Application\n\n\nFrontend\n\n\n\nReact\n\n\nVite\n\n\n\nA dynamic web app that allows users to input their information and generates a live CV with an option to download the PDF.\n\n\n\n\n\n\n\n\n\n\n\n\n\nMembers Only\n\n\nFull Stack\n\n\n\nNode.js\n\n\nExpress\n\n\nSQL\n\n\nPostgreSQL\n\n\nPassport\n\n\n\nAn exclusive clubhouse where members can write anonymous posts.\n\n\n\n\n\n\n\n\n\n\n\n\n\nInventory Application\n\n\nFull Stack\n\n\n\nNode.js\n\n\nExpress\n\n\nSQL\n\n\nPostgreSQL\n\n\nEJS\n\n\n\nAn inventory management app for an imaginary store created with Express and PostgreSQL\n\n\n\n\n\n\n\n\n\n\n\nBattleship\n\n\nFrontend\n\n\n\nHTML\n\n\nCSS\n\n\nJavaScript (ES6)\n\n\nWebpack\n\n\nJest\n\n\nOOP\n\n\nTDD\n\n\n\nBrowser-based Battleship game built with HTML, CSS, and JavaScript, playable against the computer.\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeather App\n\n\nFrontend\n\n\n\nJavaScript (Asynchronous )\n\n\nAPI\n\n\n\nA weather forecast site using the Visual Crossing API\n\n\n\n\n\n\n\n\n\n\n\n\n\nTodo List\n\n\nFrontend\n\n\n\nJavaScript (ES6)\n\n\nWebpack\n\n\nOOP\n\n\nSOLID Principles\n\n\n\nTodo list app built with HTML, CSS, and JavaScript, allowing users to create, organize, and manage tasks within projects.\n\n\n\n\n\n\n\n\n\n\n\nTic Tac Toe\n\n\nFrontend\n\n\n\nHTML\n\n\nCSS\n\n\nJavaScript\n\n\nOOP\n\n\n\nA Tic Tac Toe game that you can play in your browser! Created with HTML, CSS, and JavaScript utilizing Factories & Module Patterns (IIFEs).\n\n\n\n\n\n\n\n\n\n\n\n\n\nE Shop Site\n\n\nFrontend\n\n\n\nHTML\n\n\nCSS\n\n\nResponsive\n\n\nBootstrap\n\n\n\nResponsive mockup website for an online cake shop, showcasing products and user-friendly navigation.\n\n\n\n\n\n\n\n\n\n\n\n\n\nLibrary\n\n\nFrontend\n\n\n\nHTML\n\n\nCSS\n\n\nJavaScript\n\n\nOOP\n\n\n\nA small online personal library to track reading lists created with HTML, CSS & JavaScript using constructors.\n\n\n\n\n\n\n\n\n\n\n\n\n\nHomepage\n\n\nFrontend\n\n\n\nHTML\n\n\nCSS\n\n\nResponsive\n\n\n\nA responsive homepage site created with HTML & CSS.\n\n\n\n\n\n\n\n\n\n\n\n\n\nSign-up Form\n\n\nFrontend\n\n\n\nHTML\n\n\nCSS\n\n\n\nA sign-up form for an imaginary service.\n\n\n\n\n\n\n\n\n\n\n\n\n\nCalculator\n\n\nFrontend\n\n\n\nHTML\n\n\nCSS\n\n\nJavaScript\n\n\n\nAn on-screen calculator with keyboard support featuring basic arithmetic operations.\n\n\n\n\n\n\n\n\n\n\n\n\n\nRock Paper Scissors\n\n\nFrontend\n\n\n\nHTML\n\n\nCSS\n\n\nJavaScript\n\n\n\nThe Rock Paper Scissors game that can be played entirely in the console.\n\n\n\n\n\n\n\n\n\n\n\n\n\nEtch A Sketch\n\n\nFrontend\n\n\n\nHTML\n\n\nCSS\n\n\nJavaScript\n\n\n\nA browser version of something between a sketchpad and an Etch-A-Sketch.\n\n\n\n\n\n\n\n\n\n\n\n\n\nLanding Page\n\n\nFrontend\n\n\n\nHTML\n\n\nCSS\n\n\n\nA landing page.\n\n\n\n\n\n\n\nNo matching items\n\n Back to top"
+  },
+  {
+    "objectID": "projects/cv-application.html",
+    "href": "projects/cv-application.html",
+    "title": "CV Application",
+    "section": "",
+    "text": "Live  Source Code \n\n\n\n Back to top"
+  },
+  {
+    "objectID": "projects/file-uploader.html",
+    "href": "projects/file-uploader.html",
+    "title": "File Uploader",
+    "section": "",
+    "text": "Live  Source Code \n\n\n\n Back to top"
+  },
+  {
+    "objectID": "projects/inventory-application.html",
+    "href": "projects/inventory-application.html",
+    "title": "Inventory Application",
+    "section": "",
+    "text": "Live  Source Code \n\n\n\n Back to top"
+  },
+  {
+    "objectID": "projects/memory-card.html",
+    "href": "projects/memory-card.html",
+    "title": "Memory Card",
+    "section": "",
+    "text": "Live  Source Code \n\n\n\n Back to top"
+  },
+  {
+    "objectID": "projects/etch-a-sketch.html",
+    "href": "projects/etch-a-sketch.html",
+    "title": "Etch A Sketch",
+    "section": "",
+    "text": "Live  Source Code \n\n\n\n Back to top"
+  },
+  {
+    "objectID": "projects/calculator.html",
+    "href": "projects/calculator.html",
+    "title": "Calculator",
+    "section": "",
+    "text": "Live  Source Code \n\n\n\n Back to top"
+  },
+  {
+    "objectID": "projects/battleship.html",
+    "href": "projects/battleship.html",
+    "title": "Battleship",
+    "section": "",
+    "text": "Live  Source Code \n\n\n\n Back to top"
+  },
+  {
+    "objectID": "projects/weather-app.html",
+    "href": "projects/weather-app.html",
+    "title": "Weather App",
+    "section": "",
+    "text": "Live  Source Code \n\n\n\n Back to top"
+  },
+  {
+    "objectID": "projects/rock-paper-scissors.html",
+    "href": "projects/rock-paper-scissors.html",
+    "title": "Rock Paper Scissors",
+    "section": "",
+    "text": "Live  Source Code \n\n\n\n Back to top"
+  },
+  {
+    "objectID": "projects/landing-page.html",
+    "href": "projects/landing-page.html",
+    "title": "Landing Page",
+    "section": "",
+    "text": "Live  Source Code \n\n\n\n Back to top"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Abdullah Zeeshan",
+    "section": "",
+    "text": "My name is Abdullah Zeeshan, and I am a passionate Full Stack Developer from Hyderabad, India. Before diving into tech, I worked as a Math educator with various educational organizations, such as NGOs, schools, and ed-tech startups.\n\n\n\n\n HTML\n\n\n CSS\n\n\n JavaScript\n\n\n Node.js\n\n\n Webpack\n\n\n Babel\n\n\n ESLint\n\n\n Jest\n\n\n\n\n Vite\n\n\n React\n\n\n React Router\n\n\n Bootstrap\n\n\n Foundation\n\n\n Tailwind\n\n\n Material UI\n\n\n p5jS\n\n\n\n\n Vitest\n\n\n Express\n\n\n PostgreSQL\n\n\n Prisma\n\n\n Git\n\n\n Postman\n\n\n VS Code\n\n\n Ubuntu\n\n\n\n\n \n  \n   \n  \n    \n     Github\n  \n  \n    \n     LinkedIn"
+  },
+  {
+    "objectID": "index.html#recent-projects",
+    "href": "index.html#recent-projects",
+    "title": "Abdullah Zeeshan",
+    "section": "Recent Projects",
+    "text": "Recent Projects\nView all projects here!\n\n\n\n\n\n\n\n\n\n\nMessaging App\n\n\nFull Stack\n\n\n\nNode.js\n\n\nExpress\n\n\nPostgreSQL\n\n\nPrisma ORM\n\n\nREST API\n\n\nJWT\n\n\nPassport\n\n\nReact\n\n\nTailwind\n\n\n\nWeb-based messaging app where authenticated users can chat one-one by sending and receiving messages and files.\n\n\n\n\n\n\n\n\n\n\n\nBlog API\n\n\nBackend\n\n\n\nNode.js\n\n\nExpress\n\n\nPostgreSQL\n\n\nPrisma ORM\n\n\nREST API\n\n\nJWT\n\n\nPassport\n\n\n\nAn API-only backend for blogging platforms, featuring two front-ends: one for readers, and another for authors.\n\n\n\n\n\n\n\n\n\n\n\n\n\nFile Uploader\n\n\nFull Stack\n\n\n\nNode.js\n\n\nExpress\n\n\nPostgreSQL\n\n\nPrisma ORM\n\n\nPassport\n\n\nEJS\n\n\nCloudinary\n\n\n\nCloud storage application enabling authenticated users to upload files and organize them into folders.\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects/homepage.html",
+    "href": "projects/homepage.html",
+    "title": "Homepage",
+    "section": "",
+    "text": "Live  Source Code \n\n\n\n Back to top"
+  },
+  {
+    "objectID": "projects/todo-list.html",
+    "href": "projects/todo-list.html",
+    "title": "Todo List",
+    "section": "",
+    "text": "Live  Source Code \n\n\n\n Back to top"
+  },
+  {
+    "objectID": "projects/tic-tac-toe.html",
+    "href": "projects/tic-tac-toe.html",
+    "title": "Tic Tac Toe",
+    "section": "",
+    "text": "Live  Source Code \n\n\n\n Back to top"
+  },
+  {
+    "objectID": "projects/e-shop-site.html",
+    "href": "projects/e-shop-site.html",
+    "title": "E Shop Site",
+    "section": "",
+    "text": "Live  Source Code \n\n\n\n Back to top"
+  },
+  {
+    "objectID": "projects/library.html",
+    "href": "projects/library.html",
+    "title": "Library",
+    "section": "",
+    "text": "Live  Source Code \n\n\n\n Back to top"
+  },
+  {
+    "objectID": "projects/sign-up-form.html",
+    "href": "projects/sign-up-form.html",
+    "title": "Sign-up Form",
+    "section": "",
+    "text": "Live  Source Code \n\n\n\n Back to top"
+  },
+  {
+    "objectID": "projects/shopping-cart.html",
+    "href": "projects/shopping-cart.html",
+    "title": "Shopping Cart",
+    "section": "",
+    "text": "Live  Source Code \n\n\n\n Back to top"
+  },
+  {
+    "objectID": "projects/blog-api.html",
+    "href": "projects/blog-api.html",
+    "title": "Blog API",
+    "section": "",
+    "text": "Source Code  Live Viewing Site (Sample)  Live Authoring Site (Sample) \n\n\n\n Back to top"
+  },
+  {
+    "objectID": "projects/messaging-app.html",
+    "href": "projects/messaging-app.html",
+    "title": "Messaging App",
+    "section": "",
+    "text": "Live  Backend  Frontend \n\n\n\n Back to top"
+  },
+  {
+    "objectID": "projects/members-only.html",
+    "href": "projects/members-only.html",
+    "title": "Members Only",
+    "section": "",
+    "text": "Live  Source Code \n\n\n\n Back to top"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "My journey into the world of technology began in my late teens when I developed a keen interest in coding, machine learning, and artificial intelligence. I wrote my first hello, world program while taking Harvard’s CS50: Introduction to Computer Science course which laid the groundwork for my understanding of computer science fundamentals.\nA few years later, I discovered fast.ai and its Practical Deep Learning for Coders, where I built my first image classifier with nearly 100% accuracy. However, I realized that while I was excited about deep learning, I lacked foundational skills in software development. To bridge this gap—and to ensure both learning and employability—I decided to first become proficient as a developer.\nThat’s when I stumbled upon The Odin Project. Over the past year, this incredible resource has been my guide, marking the start of my self-directed journey to becoming a Full Stack Developer. It has provided me with the essential skills and knowledge to build robust applications and confidently navigate the tech world.\nNow, I’ve fallen in love with web development, and I plan to stay in this space for the next few years, honing my skills, building impactful projects, and growing as a developer. In the future, I aspire to revisit my passion for deep learning, combining my web development expertise with cutting-edge AI technologies to create meaningful solutions."
+  },
+  {
+    "objectID": "about.html#background",
+    "href": "about.html#background",
+    "title": "About",
+    "section": "",
+    "text": "My journey into the world of technology began in my late teens when I developed a keen interest in coding, machine learning, and artificial intelligence. I wrote my first hello, world program while taking Harvard’s CS50: Introduction to Computer Science course which laid the groundwork for my understanding of computer science fundamentals.\nA few years later, I discovered fast.ai and its Practical Deep Learning for Coders, where I built my first image classifier with nearly 100% accuracy. However, I realized that while I was excited about deep learning, I lacked foundational skills in software development. To bridge this gap—and to ensure both learning and employability—I decided to first become proficient as a developer.\nThat’s when I stumbled upon The Odin Project. Over the past year, this incredible resource has been my guide, marking the start of my self-directed journey to becoming a Full Stack Developer. It has provided me with the essential skills and knowledge to build robust applications and confidently navigate the tech world.\nNow, I’ve fallen in love with web development, and I plan to stay in this space for the next few years, honing my skills, building impactful projects, and growing as a developer. In the future, I aspire to revisit my passion for deep learning, combining my web development expertise with cutting-edge AI technologies to create meaningful solutions."
+  }
+]
