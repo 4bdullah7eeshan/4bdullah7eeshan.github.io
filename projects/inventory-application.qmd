@@ -1,0 +1,24 @@
+---
+title: "Inventory Application"
+subtitle: "Full Stack"
+description: "An inventory management app for an imaginary store created with Express and PostgreSQL"
+author: Abdullah Zeeshan
+date: 2024-09-25
+image: ../utils/inventory-application.png
+categories:
+  - Node.js
+  - Express
+  - SQL
+  - PostgreSQL
+  - EJS
+reading-time: true
+toc: true
+fig-align: center
+fig-cap-location: bottom
+---
+
+
+<span class="listing-btn-group">
+<a href="https://inventory-application-rtuo.onrender.com/" class="btn" role="button">{{< fa globe >}} Live</a> 
+<a href="https://github.com/4bdullah7eeshan/inventory-application" class="btn" role="button">{{< iconify fa github >}} Source Code</a>
+</span>

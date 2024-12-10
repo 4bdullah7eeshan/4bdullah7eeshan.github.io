@@ -1,0 +1,20 @@
+---
+title: "Sign-up Form"
+subtitle: "Frontend"
+description: "A sign-up form for an imaginary service."
+author: Abdullah Zeeshan
+date: 2024-08-14
+image: ../utils/sign-up-form.png
+categories:
+  - HTML
+  - CSS
+reading-time: true
+toc: true
+fig-align: center
+fig-cap-location: bottom
+---
+
+<span class="listing-btn-group">
+<a href="https://4bdullah7eeshan.github.io/sign-up-form/" class="btn" role="button">{{< fa globe >}} Live</a> 
+<a href="https://github.com/4bdullah7eeshan/sign-up-form" class="btn" role="button">{{< iconify fa github >}} Source Code</a>
+</span>

@@ -1,5 +1,17 @@
 ---
 title: "Projects"
+listing:
+    contents: projects
+    feed:
+      items: 3
+    sort: "date desc"
+    image-height: "25"
+    categories: true
+    type: grid
+    fields: [title, subtitle, description, image, categories]
+    image-placeholder: https://cdn.pixabay.com/photo/2020/01/07/06/36/web-4746871_1280.png
+    page-size: 25
+    date-format: long
 ---
 
-About this site
+

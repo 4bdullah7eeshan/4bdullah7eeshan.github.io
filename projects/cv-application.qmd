@@ -1,0 +1,20 @@
+---
+title: "CV Application"
+subtitle: "Frontend"
+description: "A dynamic web app that allows users to input their information and generates a live CV with an option to download the PDF."
+author: Abdullah Zeeshan
+date: 2024-10-18
+image: ../utils/cv-application.png
+categories:
+  - React
+  - Vite
+reading-time: true
+toc: true
+fig-align: center
+fig-cap-location: bottom
+---
+
+<span class="listing-btn-group">
+<a href="https://cv-application-plum-chi.vercel.app/" class="btn" role="button">{{< fa globe >}} Live</a> 
+<a href="https://github.com/4bdullah7eeshan/cv-application" class="btn" role="button">{{< iconify fa github >}} Source Code</a>
+</span>

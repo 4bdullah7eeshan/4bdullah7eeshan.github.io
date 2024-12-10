@@ -1,0 +1,22 @@
+---
+title: "Library"
+subtitle: "Frontend"
+description: "A small online personal library to track reading lists created with HTML, CSS & JavaScript using constructors."
+author: Abdullah Zeeshan
+date: 2024-08-25
+image: ../utils/library.png
+categories:
+  - HTML
+  - CSS
+  - JavaScript
+  - OOP
+reading-time: true
+toc: true
+fig-align: center
+fig-cap-location: bottom
+---
+
+<span class="listing-btn-group">
+<a href="https://4bdullah7eeshan.github.io/library/" class="btn" role="button">{{< fa globe >}} Live</a> 
+<a href="https://github.com/4bdullah7eeshan/library" class="btn" role="button">{{< iconify fa github >}} Source Code</a>
+</span>

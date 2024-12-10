@@ -1,0 +1,21 @@
+---
+title: "Calculator"
+subtitle: "Frontend"
+description: "An on-screen calculator with keyboard support featuring basic arithmetic operations."
+author: Abdullah Zeeshan
+date: 2024-08-10
+image: ../utils/calculator.png
+categories:
+  - HTML
+  - CSS
+  - JavaScript
+reading-time: true
+toc: true
+fig-align: center
+fig-cap-location: bottom
+---
+
+<span class="listing-btn-group">
+<a href="https://4bdullah7eeshan.github.io/calculator/" class="btn" role="button">{{< fa globe >}} Live</a> 
+<a href="https://github.com/4bdullah7eeshan/calculator" class="btn" role="button">{{< iconify fa github >}} Source Code</a>
+</span>

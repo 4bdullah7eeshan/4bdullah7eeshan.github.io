@@ -1,0 +1,20 @@
+---
+title: "Landing Page"
+subtitle: "Frontend"
+description: "A landing page."
+author: Abdullah Zeeshan
+date: 2024-08-07
+image: ../utils/landing-page.png
+categories:
+  - HTML
+  - CSS
+reading-time: true
+toc: true
+fig-align: center
+fig-cap-location: bottom
+---
+
+<span class="listing-btn-group">
+<a href="https://4bdullah7eeshan.github.io/landing-page/" class="btn" role="button">{{< fa globe >}} Live</a> 
+<a href="https://github.com/4bdullah7eeshan/landing-page" class="btn" role="button">{{< iconify fa github >}} Source Code</a>
+</span>

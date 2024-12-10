@@ -1,0 +1,21 @@
+---
+title: "Rock Paper Scissors"
+subtitle: "Frontend"
+description: "The Rock Paper Scissors game that can be played entirely in the console."
+author: Abdullah Zeeshan
+date: 2024-08-08
+image: ../utils/rock-paper-scissors.png
+categories:
+  - HTML
+  - CSS
+  - JavaScript
+reading-time: true
+toc: true
+fig-align: center
+fig-cap-location: bottom
+---
+
+<span class="listing-btn-group">
+<a href="https://4bdullah7eeshan.github.io/rock-paper-scissors/" class="btn" role="button">{{< fa globe >}} Live</a> 
+<a href="https://github.com/4bdullah7eeshan/rock-paper-scissors" class="btn" role="button">{{< iconify fa github >}} Source Code</a>
+</span>

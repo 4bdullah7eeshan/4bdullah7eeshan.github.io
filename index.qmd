@@ -11,6 +11,17 @@ about:
       text: LinkedIn
       href: https://www.linkedin.com/in/4bdullah7eeshan
 toc: false
+listing:
+  - id: recent-projects
+    contents: projects
+    type: grid
+    fields: [title, subtitle, description, image, categories]
+    image-placeholder: https://cdn.pixabay.com/photo/2020/01/07/06/36/web-4746871_1280.png
+    image-height: "25"
+    max-items: 3
+    sort: 
+      - "date desc"
+      - "title asc"
 ---
 
 My name is Abdullah Zeeshan, and I am a passionate Full Stack Developer from Hyderabad, India. Before diving into tech, I worked as a Math educator with various educational organizations, such as NGOs, schools, and ed-tech startups.
@@ -243,6 +254,13 @@ My name is Abdullah Zeeshan, and I am a passionate Full Stack Developer from Hyd
   </tr>
 </table>
 </div>
+
+## Recent Projects
+
+View *all* projects [here](projects.qmd)!
+
+:::{#recent-projects}
+:::
 
 
 

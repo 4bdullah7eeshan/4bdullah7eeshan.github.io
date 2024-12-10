@@ -1,0 +1,22 @@
+---
+title: "Todo List"
+subtitle: "Frontend"
+description: "Todo list app built with HTML, CSS, and JavaScript, allowing users to create, organize, and manage tasks within projects."
+author: Abdullah Zeeshan
+date: 2024-09-03
+image: ../utils/todo-list.png
+categories:
+  - JavaScript (ES6)
+  - Webpack
+  - OOP
+  - SOLID Principles
+reading-time: true
+toc: true
+fig-align: center
+fig-cap-location: bottom
+---
+
+<span class="listing-btn-group">
+<a href="https://4bdullah7eeshan.github.io/todo-list/" class="btn" role="button">{{< fa globe >}} Live</a> 
+<a href="https://github.com/4bdullah7eeshan/todo-list" class="btn" role="button">{{< iconify fa github >}} Source Code</a>
+</span>

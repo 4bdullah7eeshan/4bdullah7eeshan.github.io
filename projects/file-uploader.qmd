@@ -1,0 +1,26 @@
+---
+title: "File Uploader"
+subtitle: "Full Stack"
+description: "Cloud storage application enabling authenticated users to upload files and organize them into folders."
+author: Abdullah Zeeshan
+date: 2024-11-05
+image: ../utils/file-uploader.png
+categories:
+  - Node.js
+  - Express
+  - PostgreSQL
+  - Prisma ORM
+  - Passport
+  - EJS
+  - Cloudinary
+reading-time: true
+toc: true
+fig-align: center
+fig-cap-location: bottom
+---
+
+
+<span class="listing-btn-group">
+<a href="https://file-uploader-ewv2.onrender.com/" class="btn" role="button">{{< fa globe >}} Live</a> 
+<a href="https://github.com/4bdullah7eeshan/file-uploader" class="btn" role="button">{{< iconify fa github >}} Source Code</a>
+</span>

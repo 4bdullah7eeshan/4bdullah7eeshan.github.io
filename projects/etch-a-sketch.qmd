@@ -1,0 +1,21 @@
+---
+title: "Etch A Sketch"
+subtitle: "Frontend"
+description: "A browser version of something between a sketchpad and an Etch-A-Sketch."
+author: Abdullah Zeeshan
+date: 2024-08-08
+image: ../utils/etch-a-sketch.png
+categories:
+  - HTML
+  - CSS
+  - JavaScript
+reading-time: true
+toc: true
+fig-align: center
+fig-cap-location: bottom
+---
+
+<span class="listing-btn-group">
+<a href="https://4bdullah7eeshan.github.io/etch-a-sketch/" class="btn" role="button">{{< fa globe >}} Live</a> 
+<a href="https://github.com/4bdullah7eeshan/etch-a-sketch" class="btn" role="button">{{< iconify fa github >}} Source Code</a>
+</span>

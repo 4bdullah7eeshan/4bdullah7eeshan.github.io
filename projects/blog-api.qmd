@@ -1,0 +1,26 @@
+---
+title: "Blog API"
+subtitle: "Backend"
+description: "An API-only backend for blogging platforms, featuring two front-ends: one for readers, and another for authors."
+author: Abdullah Zeeshan
+date: 2024-11-11
+categories:
+  - Node.js
+  - Express
+  - PostgreSQL
+  - Prisma ORM
+  - REST API
+  - JWT
+  - Passport
+reading-time: true
+toc: true
+fig-align: center
+fig-cap-location: bottom
+banner: true
+---
+
+<span class="listing-btn-group">
+<a href="https://github.com/4bdullah7eeshan/blog-api/" class="btn" role="button">{{< iconify fa github >}} Source Code</a>
+<a href="https://4bdullah7eeshan.github.io/blog-frontend-user/" class="btn" role="button">{{< fa globe >}} Live Viewing Site (Sample)</a> 
+<a href="https://4bdullah7eeshan.github.io/blog-frontend-author/" class="btn" role="button">{{< fa globe >}} Live Authoring Site (Sample)</a>
+</span>

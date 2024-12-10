@@ -1,0 +1,24 @@
+---
+title: "Shopping Cart"
+subtitle: "Frontend"
+description: "A web-based e-commerce app featuring essential functionalities, including product display, cart management, and checkout."
+author: Abdullah Zeeshan
+date: 2024-10-23
+image: ../utils/shopping-cart.png
+categories:
+  - React
+  - React Router
+  - RTL
+  - Vitest
+  - CSS Modules
+  - Vite
+reading-time: true
+toc: true
+fig-align: center
+fig-cap-location: bottom
+---
+
+<span class="listing-btn-group">
+<a href="https://shopping-cart-eight-smoky.vercel.app/" class="btn" role="button">{{< fa globe >}} Live</a> 
+<a href="https://github.com/4bdullah7eeshan/shopping-cart" class="btn" role="button">{{< iconify fa github >}} Source Code</a>
+</span>

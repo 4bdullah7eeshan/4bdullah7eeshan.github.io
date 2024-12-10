@@ -1,0 +1,22 @@
+---
+title: "E Shop Site"
+subtitle: "Frontend"
+description: "Responsive mockup website for an online cake shop, showcasing products and user-friendly navigation."
+author: Abdullah Zeeshan
+date: 2024-08-26
+image: ../utils/bakenest.png
+categories:
+  - HTML
+  - CSS
+  - Responsive
+  - Bootstrap
+reading-time: true
+toc: true
+fig-align: center
+fig-cap-location: bottom
+---
+
+<span class="listing-btn-group">
+<a href="https://4bdullah7eeshan.github.io/bakenest/" class="btn" role="button">{{< fa globe >}} Live</a> 
+<a href="https://github.com/4bdullah7eeshan/bakenest" class="btn" role="button">{{< iconify fa github >}} Source Code</a>
+</span>

@@ -30,7 +30,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./images/profile.png" rel="icon" type="image/png">
+<link href="./utils/profile.png" rel="icon" type="image/png">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -66,7 +68,66 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-recent-projects .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-subtitle','listing-description','listing-image','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      page: 18,
+    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-recent-projects'] = new List('listing-recent-projects', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -213,6 +274,150 @@ ul.task-list li input[type="checkbox"] {
 </td>
 </tr>
 </tbody></table>
+</div>
+</section>
+<section id="recent-projects" class="level2">
+<h2 data-anchor-id="recent-projects">Recent Projects</h2>
+<p>View <em>all</em> projects <a href="./projects.html">here</a></p>
+<div id="listing-recent-projects" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="Tm9kZS5qcyUyQ0V4cHJlc3MlMkNQb3N0Z3JlU1FMJTJDUHJpc21hJTIwT1JNJTJDUkVTVCUyMEFQSSUyQ0pXVCUyQ1Bhc3Nwb3J0JTJDUmVhY3QlMkNUYWlsd2luZA==" data-listing-date-sort="1733337000000" data-listing-file-modified-sort="1733852134196" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="26">
+<a href="./projects/messaging-app.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./utils/messaging-app.png" class="thumbnail-image card-img" style="height: 25;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Messaging App
+</h5>
+<div class="card-subtitle listing-subtitle">
+Full Stack
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Tm9kZS5qcw=='); return false;">
+Node.js
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('RXhwcmVzcw=='); return false;">
+Express
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('UG9zdGdyZVNRTA=='); return false;">
+PostgreSQL
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('UHJpc21hJTIwT1JN'); return false;">
+Prisma ORM
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('UkVTVCUyMEFQSQ=='); return false;">
+REST API
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('SldU'); return false;">
+JWT
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('UGFzc3BvcnQ='); return false;">
+Passport
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('UmVhY3Q='); return false;">
+React
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('VGFpbHdpbmQ='); return false;">
+Tailwind
+</div>
+</div>
+<div class="card-text listing-description">
+Web-based messaging app where authenticated users can chat one-one by sending and receiving messages and files.
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="Tm9kZS5qcyUyQ0V4cHJlc3MlMkNQb3N0Z3JlU1FMJTJDUHJpc21hJTIwT1JNJTJDUkVTVCUyMEFQSSUyQ0pXVCUyQ1Bhc3Nwb3J0" data-listing-date-sort="1731263400000" data-listing-file-modified-sort="1733852040689" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="32">
+<a href="./projects/blog-api.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img src="https://cdn.pixabay.com/photo/2020/01/07/06/36/web-4746871_1280.png" style="height: 25;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Blog API
+</h5>
+<div class="card-subtitle listing-subtitle">
+Backend
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Tm9kZS5qcw=='); return false;">
+Node.js
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('RXhwcmVzcw=='); return false;">
+Express
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('UG9zdGdyZVNRTA=='); return false;">
+PostgreSQL
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('UHJpc21hJTIwT1JN'); return false;">
+Prisma ORM
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('UkVTVCUyMEFQSQ=='); return false;">
+REST API
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('SldU'); return false;">
+JWT
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('UGFzc3BvcnQ='); return false;">
+Passport
+</div>
+</div>
+<div class="card-text listing-description">
+An API-only backend for blogging platforms, featuring two front-ends: one for readers, and another for authors.
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="Tm9kZS5qcyUyQ0V4cHJlc3MlMkNQb3N0Z3JlU1FMJTJDUHJpc21hJTIwT1JNJTJDUGFzc3BvcnQlMkNFSlMlMkNDbG91ZGluYXJ5" data-listing-date-sort="1730745000000" data-listing-file-modified-sort="1733852073057" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="19">
+<a href="./projects/file-uploader.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./utils/file-uploader.png" class="thumbnail-image card-img" style="height: 25;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+File Uploader
+</h5>
+<div class="card-subtitle listing-subtitle">
+Full Stack
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Tm9kZS5qcw=='); return false;">
+Node.js
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('RXhwcmVzcw=='); return false;">
+Express
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('UG9zdGdyZVNRTA=='); return false;">
+PostgreSQL
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('UHJpc21hJTIwT1JN'); return false;">
+Prisma ORM
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('UGFzc3BvcnQ='); return false;">
+Passport
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('RUpT'); return false;">
+EJS
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Q2xvdWRpbmFyeQ=='); return false;">
+Cloudinary
+</div>
+</div>
+<div class="card-text listing-description">
+Cloud storage application enabling authenticated users to upload files and organize them into folders.
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
 </div>
 
 

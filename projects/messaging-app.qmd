@@ -1,0 +1,29 @@
+---
+title: "Messaging App"
+subtitle: "Full Stack"
+description: "Web-based messaging app where authenticated users can chat one-one by sending and receiving messages and files."
+author: Abdullah Zeeshan
+date: 2024-12-05
+image: ../utils/messaging-app.png
+categories:
+  - Node.js
+  - Express
+  - PostgreSQL
+  - Prisma ORM
+  - REST API
+  - JWT
+  - Passport
+  - React
+  - Tailwind
+reading-time: true
+toc: true
+fig-align: center
+fig-cap-location: bottom
+banner: true
+---
+
+<span class="listing-btn-group">
+<a href="https://messaging-app-frontend-dusky.vercel.app/" class="btn" role="button">{{< fa globe >}} Live</a> 
+<a href="https://github.com/4bdullah7eeshan/messaging-app-backend" class="btn" role="button">{{< iconify fa github >}} Backend</a>
+<a href="https://github.com/4bdullah7eeshan/messaging-app-frontend" class="btn" role="button">{{< iconify fa github >}} Frontend</a>
+</span>
