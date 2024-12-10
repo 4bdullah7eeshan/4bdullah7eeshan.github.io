@@ -4,6 +4,7 @@ subtitle: "Frontend"
 description: "Browser-based Battleship game built with HTML, CSS, and JavaScript, playable against the computer."
 author: Abdullah Zeeshan
 date: 2024-09-19
+image: ../utils/battleship.png
 categories:
   - HTML
   - CSS

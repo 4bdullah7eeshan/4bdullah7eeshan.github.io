@@ -4,6 +4,7 @@ subtitle: "Frontend"
 description: "A Tic Tac Toe game that you can play in your browser! Created with HTML, CSS, and JavaScript utilizing Factories & Module Patterns (IIFEs)."
 author: Abdullah Zeeshan
 date: 2024-08-28
+image: ../utils/tic-tac-toe.png
 categories:
   - HTML
   - CSS
