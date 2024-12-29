@@ -11,15 +11,20 @@ website:
     tools:
       - icon: github
         href: https://github.com/4bdullah7eeshan
+      - icon: linkedin
+        href: https://www.linkedin.com/in/4bdullah7eeshan/
       - icon: rss
         href: index.xml
-    right:
+    left:
       - href: index.qmd
         text: Home
       - href: projects.qmd
         text: Projects
       - href: about.qmd
         text: About
+      - href: "./utils/resume.pdf"
+        text: Resume
+        target: _blank
     pinned: false
     collapse: true
     collapse-below: lg
