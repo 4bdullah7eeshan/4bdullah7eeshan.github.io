@@ -27,7 +27,7 @@ listing:
 
 
 :::{#about}
-I am a Full Stack Developer and an aspiring Data Scientist from Hyderabad, India. Before diving into tech, I worked as a Math educator with various educational organizations, such as NGOs, schools, and ed-tech startups.
+I am a Full Stack Developer, Teacher, and an aspiring Data Scientist from Hyderabad, India.
 
 <div style= "display: flex; justify-content: center; align-items: center;">
 <table>
