@@ -2,7 +2,8 @@
   {
     "listing": "/index.html",
     "items": [
-      "/posts/what-can-we-blog-about/index.html"
+      "/posts/what-can-we-blog-about/index.html",
+      "/posts/how-to-publish-a-quarto-blog-post-with-github-pages/index.html"
     ]
   }
 ]
