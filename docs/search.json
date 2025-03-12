@@ -1,19 +1,5 @@
 [
   {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Welcome",
-    "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Abdullah Zeeshan",
-    "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nWhat Can We Blog About\n\n\n\n\n\n\nblog\n\n\n\nMy understanding of the things we can blog about.\n\n\n\n\n\nMar 12, 2025\n\n\nAbdullah Zeeshan\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nMar 12, 2025\n\n\nAbdullah Zeeshan\n\n\n\n\n\n\nNo matching items"
-  },
-  {
     "objectID": "posts/what-can-we-blog-about/index.html",
     "href": "posts/what-can-we-blog-about/index.html",
     "title": "What Can We Blog About",
@@ -75,5 +61,12 @@
     "title": "What Can We Blog About",
     "section": "Resources",
     "text": "Resources\n\nA Complete Step-by-Step Guide to Start a Blog for Software Developers - The Ankur Tyagi\nWhy you (yes, you) should blog. The top advice I would give my younger… | by Rachel Thomas | Medium\nAdvice for Better Blog Posts – fast.ai\nHow to Blog to Advance Your Career and Learn Faster - YouTube\n“advice” for aspiring tech bloggers"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Abdullah Zeeshan",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nWhat Can We Blog About\n\n\n\n\n\n\nblog\n\n\n\nMy understanding of the things we can blog about.\n\n\n\n\n\nMar 12, 2025\n\n\nAbdullah Zeeshan\n\n\n\n\n\n\nNo matching items"
   }
 ]
