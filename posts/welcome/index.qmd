@@ -1,0 +1,10 @@
+---
+title: "Welcome"
+author: "Abdullah Zeeshan"
+date: "2025-03-12"
+categories: [news]
+image: "thumbnail.jpg"
+---
+
+This is the first post in a Quarto blog. Welcome!
+
