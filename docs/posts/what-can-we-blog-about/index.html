@@ -73,7 +73,7 @@ ul.task-list li input[type="checkbox"] {
 
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
@@ -142,7 +142,42 @@ ul.task-list li input[type="checkbox"] {
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#the-feynman-technique" id="toc-the-feynman-technique" class="nav-link active" data-scroll-target="#the-feynman-technique">The Feynman Technique</a>
+  <ul class="collapse">
+  <li><a href="#pros" id="toc-pros" class="nav-link" data-scroll-target="#pros">Pros</a></li>
+  <li><a href="#cons" id="toc-cons" class="nav-link" data-scroll-target="#cons">Cons</a></li>
+  </ul></li>
+  <li><a href="#sharing-our-learningcoding-journey" id="toc-sharing-our-learningcoding-journey" class="nav-link" data-scroll-target="#sharing-our-learningcoding-journey">Sharing our learning/coding journey</a>
+  <ul class="collapse">
+  <li><a href="#pros-1" id="toc-pros-1" class="nav-link" data-scroll-target="#pros-1">Pros</a></li>
+  <li><a href="#cons-1" id="toc-cons-1" class="nav-link" data-scroll-target="#cons-1">Cons</a></li>
+  </ul></li>
+  <li><a href="#sharing-great-resources" id="toc-sharing-great-resources" class="nav-link" data-scroll-target="#sharing-great-resources">Sharing great resources</a>
+  <ul class="collapse">
+  <li><a href="#pros-2" id="toc-pros-2" class="nav-link" data-scroll-target="#pros-2">Pros</a></li>
+  <li><a href="#cons-2" id="toc-cons-2" class="nav-link" data-scroll-target="#cons-2">Cons</a></li>
+  </ul></li>
+  <li><a href="#creating-summaries" id="toc-creating-summaries" class="nav-link" data-scroll-target="#creating-summaries">Creating summaries</a>
+  <ul class="collapse">
+  <li><a href="#pros-3" id="toc-pros-3" class="nav-link" data-scroll-target="#pros-3">Pros</a></li>
+  <li><a href="#cons-3" id="toc-cons-3" class="nav-link" data-scroll-target="#cons-3">Cons</a></li>
+  </ul></li>
+  <li><a href="#most-common-how-tos" id="toc-most-common-how-tos" class="nav-link" data-scroll-target="#most-common-how-tos">Most common How-tos</a>
+  <ul class="collapse">
+  <li><a href="#pros-4" id="toc-pros-4" class="nav-link" data-scroll-target="#pros-4">Pros</a></li>
+  <li><a href="#cons-4" id="toc-cons-4" class="nav-link" data-scroll-target="#cons-4">Cons</a></li>
+  </ul></li>
+  <li><a href="#my-summary" id="toc-my-summary" class="nav-link" data-scroll-target="#my-summary">My Summary</a></li>
+  <li><a href="#related-posts" id="toc-related-posts" class="nav-link" data-scroll-target="#related-posts">Related Posts</a></li>
+  <li><a href="#resources" id="toc-resources" class="nav-link" data-scroll-target="#resources">Resources</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
 
@@ -439,7 +474,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/4bdullah7eeshan\.github\.io\/");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
