@@ -1,5 +1,47 @@
 [
   {
+    "objectID": "posts/how-to-publish-a-quarto-blog-post-with-github-pages/index.html",
+    "href": "posts/how-to-publish-a-quarto-blog-post-with-github-pages/index.html",
+    "title": "How to publish a Quarto blog post with GitHub Pages?",
+    "section": "",
+    "text": "quarto render"
+  },
+  {
+    "objectID": "posts/how-to-publish-a-quarto-blog-post-with-github-pages/index.html#step-1.-ask-quarto-to-render",
+    "href": "posts/how-to-publish-a-quarto-blog-post-with-github-pages/index.html#step-1.-ask-quarto-to-render",
+    "title": "How to publish a Quarto blog post with GitHub Pages?",
+    "section": "",
+    "text": "quarto render"
+  },
+  {
+    "objectID": "posts/how-to-publish-a-quarto-blog-post-with-github-pages/index.html#step-2-github-related",
+    "href": "posts/how-to-publish-a-quarto-blog-post-with-github-pages/index.html#step-2-github-related",
+    "title": "How to publish a Quarto blog post with GitHub Pages?",
+    "section": "Step 2: GitHub Related",
+    "text": "Step 2: GitHub Related\ngit add docs\ngit commit -m \"Publish site to docs/\"\ngit push"
+  },
+  {
+    "objectID": "posts/how-to-publish-a-quarto-blog-post-with-github-pages/index.html#step-3-ask-quarto-to-publish-on-gh-pages",
+    "href": "posts/how-to-publish-a-quarto-blog-post-with-github-pages/index.html#step-3-ask-quarto-to-publish-on-gh-pages",
+    "title": "How to publish a Quarto blog post with GitHub Pages?",
+    "section": "Step 3: Ask Quarto to publish on gh-pages",
+    "text": "Step 3: Ask Quarto to publish on gh-pages\nquarto publish gh-pages"
+  },
+  {
+    "objectID": "posts/how-to-publish-a-quarto-blog-post-with-github-pages/index.html#references",
+    "href": "posts/how-to-publish-a-quarto-blog-post-with-github-pages/index.html#references",
+    "title": "How to publish a Quarto blog post with GitHub Pages?",
+    "section": "References",
+    "text": "References\n\nGitHub Pages – Quarto"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Abdullah Zeeshan",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nWhat Can We Blog About\n\n\n\n\n\n\nblog\n\n\n\nMy understanding of the things we can blog about.\n\n\n\n\n\nMar 12, 2025\n\n\nAbdullah Zeeshan\n\n\n\n\n\n\n\n\n\n\n\n\nHow to publish a Quarto blog post with GitHub Pages?\n\n\n\n\n\n\nblog\n\n\nquarto\n\n\n\nA summary of my workflow\n\n\n\n\n\nMar 12, 2025\n\n\nAbdullah Zeeshan\n\n\n\n\n\n\nNo matching items"
+  },
+  {
     "objectID": "posts/what-can-we-blog-about/index.html",
     "href": "posts/what-can-we-blog-about/index.html",
     "title": "What Can We Blog About",
@@ -61,12 +103,5 @@
     "title": "What Can We Blog About",
     "section": "Resources",
     "text": "Resources\n\nA Complete Step-by-Step Guide to Start a Blog for Software Developers - The Ankur Tyagi\nWhy you (yes, you) should blog. The top advice I would give my younger… | by Rachel Thomas | Medium\nAdvice for Better Blog Posts – fast.ai\nHow to Blog to Advance Your Career and Learn Faster - YouTube\n“advice” for aspiring tech bloggers"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Abdullah Zeeshan",
-    "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nWhat Can We Blog About\n\n\n\n\n\n\nblog\n\n\n\nMy understanding of the things we can blog about.\n\n\n\n\n\nMar 12, 2025\n\n\nAbdullah Zeeshan\n\n\n\n\n\n\nNo matching items"
   }
 ]
