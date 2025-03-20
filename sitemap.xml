@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://4bdullah7eeshan.github.io/posts/how-to-publish-a-quarto-blog-post-with-github-pages/index.html</loc>
-    <lastmod>2025-03-12T17:50:05.810Z</lastmod>
+    <loc>https://4bdullah7eeshan.github.io/projects.html</loc>
+    <lastmod>2025-03-20T21:36:51.617Z</lastmod>
+  </url>
+  <url>
+    <loc>https://4bdullah7eeshan.github.io/posts/what-can-we-blog-about/index.html</loc>
+    <lastmod>2025-03-12T17:33:34.938Z</lastmod>
   </url>
   <url>
     <loc>https://4bdullah7eeshan.github.io/index.html</loc>
     <lastmod>2025-03-20T21:23:26.896Z</lastmod>
   </url>
   <url>
-    <loc>https://4bdullah7eeshan.github.io/posts/what-can-we-blog-about/index.html</loc>
-    <lastmod>2025-03-12T17:33:34.938Z</lastmod>
+    <loc>https://4bdullah7eeshan.github.io/posts/how-to-publish-a-quarto-blog-post-with-github-pages/index.html</loc>
+    <lastmod>2025-03-12T17:50:05.810Z</lastmod>
   </url>
 </urlset>
