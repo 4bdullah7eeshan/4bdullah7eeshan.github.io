@@ -1,5 +1,23 @@
 [
   {
+    "listing": "/notes.html",
+    "items": [
+      "/sources/the-odin-project/index.html"
+    ]
+  },
+  {
+    "listing": "/blog.html",
+    "items": [
+      "/posts/what-can-we-blog-about/index.html",
+      "/posts/how-to-publish-a-quarto-blog-post-with-github-pages/index.html",
+      "/posts/segmentation/segmentation.html",
+      "/posts/colored-cups/index.html",
+      "/posts/how-to-run-a-linux-subsystem-in-windows/index.html",
+      "/posts/teaching-ai-some-geography/continents_classifier.html",
+      "/posts/frolicking-with-ai-generated-art/index.html"
+    ]
+  },
+  {
     "listing": "/projects.html",
     "items": [
       "/projects/messaging-app.html",
@@ -22,24 +40,6 @@
       "/projects/rock-paper-scissors.html",
       "/projects/etch-a-sketch.html",
       "/projects/landing-page.html"
-    ]
-  },
-  {
-    "listing": "/blog.html",
-    "items": [
-      "/posts/what-can-we-blog-about/index.html",
-      "/posts/how-to-publish-a-quarto-blog-post-with-github-pages/index.html",
-      "/posts/segmentation/segmentation.html",
-      "/posts/colored-cups/index.html",
-      "/posts/how-to-run-a-linux-subsystem-in-windows/index.html",
-      "/posts/teaching-ai-some-geography/continents_classifier.html",
-      "/posts/frolicking-with-ai-generated-art/index.html"
-    ]
-  },
-  {
-    "listing": "/notes.html",
-    "items": [
-      "/sources/the-odin-project/index.html"
     ]
   }
 ]
