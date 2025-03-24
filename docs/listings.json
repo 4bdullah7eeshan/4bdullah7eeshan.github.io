@@ -28,7 +28,12 @@
     "listing": "/blog.html",
     "items": [
       "/posts/what-can-we-blog-about/index.html",
-      "/posts/how-to-publish-a-quarto-blog-post-with-github-pages/index.html"
+      "/posts/how-to-publish-a-quarto-blog-post-with-github-pages/index.html",
+      "/posts/segmentation/segmentation.html",
+      "/posts/colored-cups/index.html",
+      "/posts/how-to-run-a-linux-subsystem-in-windows/index.html",
+      "/posts/teaching-ai-some-geography/continents_classifier.html",
+      "/posts/frolicking-with-ai-generated-art/index.html"
     ]
   },
   {
