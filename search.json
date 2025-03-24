@@ -170,6 +170,54 @@
     ]
   },
   {
+    "objectID": "notes/the-odin-project/foundations/overview/index.html#overview-text",
+    "href": "notes/the-odin-project/foundations/overview/index.html#overview-text",
+    "title": "Overview",
+    "section": "",
+    "text": "This is where it all begins! A hands-on introduction to all of the essential tools you’ll need to build real, working websites. You’ll learn what web developers actually do – the foundations you’ll need for later courses.",
+    "crumbs": [
+      "The Odin Project",
+      "Foundations",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "notes/the-odin-project/foundations/overview/index.html#notes",
+    "href": "notes/the-odin-project/foundations/overview/index.html#notes",
+    "title": "Overview",
+    "section": "Notes",
+    "text": "Notes\nFrom the text, the following three propositions are the important ones:\n\n“A hands-on introduction to all of the essential tools you’ll need to build real, working websites.”\n“You’ll learn what web developers actually do…”\n“…the foundations you’ll need for later courses.”\n\n\nProposition 1: “A hands-on …”\nA website can be categorized into the the following two:\n\nReal-working ones\nBullshit ones\n\nLet us focus on the real working ones. Consider the following real-working websites:\n\nNetflix India – Watch TV Shows Online, Watch Movies Online\nAirbnb | Holiday rentals, cabins, beach houses & more\nElectric Cars, Solar & Clean Energy | Tesla\n\nThese are some real working websites full of life.\nIn order to build the above websites, some essential technologies are used. We don’t know what these are yet, but let us say the following:\n\nET 1\nET 2\nET 3\netc.\n\nThe Foundations Course gives us an introduction to all such essential technologies.\nNow, the introduction could be of the following two flavours:\n\nTheoretical\nPractical\n\nThe Foundations Course gives us a hands-on practical introduction.\nIn the other courses we will be going deeper into each of these essential technologies so that one day we will be equipped with the tools to develop such websites ourselves!\n\n\nProposition 2: “You’ll …”\nWhat web developers actually do? Will we know it at a deeper level? Like what goes inside their work? Day in a life kind of thing?\n\n\n\n\n\n\nThinking Beyond\n\n\n\n\nWhat other professional people do?\nWhat X actually do?\nShould I have a general idea of them? How deep? Surface level?\n\nSocial setting: “What do you do?” I should know what most of the professions do? I can ask about the work. Perception or Reality? Fuck!!!\nAnyways here is a list.\n\n\n\n\nProposition 3: “…the foundations…”\nThe Foundations Course prepares us for the next courses.",
+    "crumbs": [
+      "The Odin Project",
+      "Foundations",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "notes/the-odin-project/foundations/overview/index.html#summary",
+    "href": "notes/the-odin-project/foundations/overview/index.html#summary",
+    "title": "Overview",
+    "section": "Summary",
+    "text": "Summary\n\nIn order to build real-working websites some essential technologies are used.",
+    "crumbs": [
+      "The Odin Project",
+      "Foundations",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "notes/the-odin-project/foundations/overview/index.html#links",
+    "href": "notes/the-odin-project/foundations/overview/index.html#links",
+    "title": "Overview",
+    "section": "Links",
+    "text": "Links\n\nReferences\n\nFoundations | The Odin Project (Overview Section)\n\n\n\nFurther Research\n\nJobs/Professions Vocabulary Word List | Britannica Dictionary",
+    "crumbs": [
+      "The Odin Project",
+      "Foundations",
+      "Overview"
+    ]
+  },
+  {
     "objectID": "projects/homepage.html",
     "href": "projects/homepage.html",
     "title": "Homepage",
