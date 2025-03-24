@@ -1,5 +1,30 @@
 [
   {
+    "listing": "/projects.html",
+    "items": [
+      "/projects/messaging-app.html",
+      "/projects/blog-api.html",
+      "/projects/file-uploader.html",
+      "/projects/shopping-cart.html",
+      "/projects/memory-card.html",
+      "/projects/cv-application.html",
+      "/projects/members-only.html",
+      "/projects/inventory-application.html",
+      "/projects/battleship.html",
+      "/projects/weather-app.html",
+      "/projects/todo-list.html",
+      "/projects/tic-tac-toe.html",
+      "/projects/e-shop-site.html",
+      "/projects/library.html",
+      "/projects/homepage.html",
+      "/projects/sign-up-form.html",
+      "/projects/calculator.html",
+      "/projects/rock-paper-scissors.html",
+      "/projects/etch-a-sketch.html",
+      "/projects/landing-page.html"
+    ]
+  },
+  {
     "listing": "/blog.html",
     "items": [
       "/posts/what-can-we-blog-about/index.html",
