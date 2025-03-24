@@ -4,49 +4,14 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Coming Soon\n\n\n\nI am currently reworking the past projects I did."
+    "text": "Note\n\n\n\nI am currently working on improving these projects. Nonetheless, the following gallery provides an overview of the stuff I built so far.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMessaging App\n\n\nFull Stack\n\n\n\nNode.js\n\n\nExpress\n\n\nPostgreSQL\n\n\nPrisma ORM\n\n\nREST API\n\n\nJWT\n\n\nPassport\n\n\nReact\n\n\nTailwind\n\n\n\nWeb-based messaging app where authenticated users can chat one-one by sending and receiving messages and files.\n\n\n\n\n\n\n\n\n\n\n\nBlog API\n\n\nBackend\n\n\n\nNode.js\n\n\nExpress\n\n\nPostgreSQL\n\n\nPrisma ORM\n\n\nREST API\n\n\nJWT\n\n\nPassport\n\n\n\nAn API-only backend for blogging platforms, featuring two front-ends: one for readers, and another for authors.\n\n\n\n\n\n\n\n\n\n\n\n\n\nFile Uploader\n\n\nFull Stack\n\n\n\nNode.js\n\n\nExpress\n\n\nPostgreSQL\n\n\nPrisma ORM\n\n\nPassport\n\n\nEJS\n\n\nCloudinary\n\n\n\nCloud storage application enabling authenticated users to upload files and organize them into folders.\n\n\n\n\n\n\n\n\n\n\n\n\n\nShopping Cart\n\n\nFrontend\n\n\n\nReact\n\n\nReact Router\n\n\nRTL\n\n\nVitest\n\n\nCSS Modules\n\n\nVite\n\n\n\nA web-based e-commerce app featuring essential functionalities, including product display, cart management, and checkout.\n\n\n\n\n\n\n\n\n\n\n\n\n\nMemory Card\n\n\nFrontend\n\n\n\nReact\n\n\nVite\n\n\n\nA fun and interactive memory card game built with React, featuring dynamic card shuffling, score tracking, and Pokémon API integration.\n\n\n\n\n\n\n\n\n\n\n\n\n\nCV Application\n\n\nFrontend\n\n\n\nReact\n\n\nVite\n\n\n\nA dynamic web app that allows users to input their information and generates a live CV with an option to download the PDF.\n\n\n\n\n\n\n\n\n\n\n\n\n\nMembers Only\n\n\nFull Stack\n\n\n\nNode.js\n\n\nExpress\n\n\nSQL\n\n\nPostgreSQL\n\n\nPassport\n\n\n\nAn exclusive clubhouse where members can write anonymous posts.\n\n\n\n\n\n\n\n\n\n\n\n\n\nInventory Application\n\n\nFull Stack\n\n\n\nNode.js\n\n\nExpress\n\n\nSQL\n\n\nPostgreSQL\n\n\nEJS\n\n\n\nAn inventory management app for an imaginary store created with Express and PostgreSQL\n\n\n\n\n\n\n\n\n\n\n\n\n\nBattleship\n\n\nFrontend\n\n\n\nHTML\n\n\nCSS\n\n\nJavaScript (ES6)\n\n\nWebpack\n\n\nJest\n\n\nOOP\n\n\nTDD\n\n\n\nBrowser-based Battleship game built with HTML, CSS, and JavaScript, playable against the computer.\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeather App\n\n\nFrontend\n\n\n\nJavaScript (Asynchronous )\n\n\nAPI\n\n\n\nA weather forecast site using the Visual Crossing API\n\n\n\n\n\n\n\n\n\n\n\n\n\nTodo List\n\n\nFrontend\n\n\n\nJavaScript (ES6)\n\n\nWebpack\n\n\nOOP\n\n\nSOLID Principles\n\n\n\nTodo list app built with HTML, CSS, and JavaScript, allowing users to create, organize, and manage tasks within projects.\n\n\n\n\n\n\n\n\n\n\n\n\n\nTic Tac Toe\n\n\nFrontend\n\n\n\nHTML\n\n\nCSS\n\n\nJavaScript\n\n\nOOP\n\n\n\nA Tic Tac Toe game that you can play in your browser! Created with HTML, CSS, and JavaScript utilizing Factories & Module Patterns (IIFEs).\n\n\n\n\n\n\n\n\n\n\n\n\n\nE Shop Site\n\n\nFrontend\n\n\n\nHTML\n\n\nCSS\n\n\nResponsive\n\n\nBootstrap\n\n\n\nResponsive mockup website for an online cake shop, showcasing products and user-friendly navigation.\n\n\n\n\n\n\n\n\n\n\n\n\n\nLibrary\n\n\nFrontend\n\n\n\nHTML\n\n\nCSS\n\n\nJavaScript\n\n\nOOP\n\n\n\nA small online personal library to track reading lists created with HTML, CSS & JavaScript using constructors.\n\n\n\n\n\n\n\n\n\n\n\n\n\nHomepage\n\n\nFrontend\n\n\n\nHTML\n\n\nCSS\n\n\nResponsive\n\n\n\nA responsive homepage site created with HTML & CSS.\n\n\n\n\n\n\n\n\n\n\n\n\n\nSign-up Form\n\n\nFrontend\n\n\n\nHTML\n\n\nCSS\n\n\n\nA sign-up form for an imaginary service.\n\n\n\n\n\n\n\n\n\n\n\n\n\nCalculator\n\n\nFrontend\n\n\n\nHTML\n\n\nCSS\n\n\nJavaScript\n\n\n\nAn on-screen calculator with keyboard support featuring basic arithmetic operations.\n\n\n\n\n\n\n\n\n\n\n\n\n\nRock Paper Scissors\n\n\nFrontend\n\n\n\nHTML\n\n\nCSS\n\n\nJavaScript\n\n\n\nThe Rock Paper Scissors game that can be played entirely in the console.\n\n\n\n\n\n\n\n\n\n\n\n\n\nEtch A Sketch\n\n\nFrontend\n\n\n\nHTML\n\n\nCSS\n\n\nJavaScript\n\n\n\nA browser version of something between a sketchpad and an Etch-A-Sketch.\n\n\n\n\n\n\n\n\n\n\n\n\n\nLanding Page\n\n\nFrontend\n\n\n\nHTML\n\n\nCSS\n\n\n\nA landing page.\n\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "posts/how-to-publish-a-quarto-blog-post-with-github-pages/index.html",
-    "href": "posts/how-to-publish-a-quarto-blog-post-with-github-pages/index.html",
-    "title": "How to publish a Quarto blog post with GitHub Pages?",
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
     "section": "",
-    "text": "quarto render"
-  },
-  {
-    "objectID": "posts/how-to-publish-a-quarto-blog-post-with-github-pages/index.html#step-1.-ask-quarto-to-render",
-    "href": "posts/how-to-publish-a-quarto-blog-post-with-github-pages/index.html#step-1.-ask-quarto-to-render",
-    "title": "How to publish a Quarto blog post with GitHub Pages?",
-    "section": "",
-    "text": "quarto render"
-  },
-  {
-    "objectID": "posts/how-to-publish-a-quarto-blog-post-with-github-pages/index.html#step-2-github-related",
-    "href": "posts/how-to-publish-a-quarto-blog-post-with-github-pages/index.html#step-2-github-related",
-    "title": "How to publish a Quarto blog post with GitHub Pages?",
-    "section": "Step 2: GitHub Related",
-    "text": "Step 2: GitHub Related\ngit add docs\ngit commit -m \"Publish site to docs/\"\ngit push"
-  },
-  {
-    "objectID": "posts/how-to-publish-a-quarto-blog-post-with-github-pages/index.html#step-3-ask-quarto-to-publish-on-gh-pages",
-    "href": "posts/how-to-publish-a-quarto-blog-post-with-github-pages/index.html#step-3-ask-quarto-to-publish-on-gh-pages",
-    "title": "How to publish a Quarto blog post with GitHub Pages?",
-    "section": "Step 3: Ask Quarto to publish on gh-pages",
-    "text": "Step 3: Ask Quarto to publish on gh-pages\nquarto publish gh-pages"
-  },
-  {
-    "objectID": "posts/how-to-publish-a-quarto-blog-post-with-github-pages/index.html#references",
-    "href": "posts/how-to-publish-a-quarto-blog-post-with-github-pages/index.html#references",
-    "title": "How to publish a Quarto blog post with GitHub Pages?",
-    "section": "References",
-    "text": "References\n\nGitHub Pages – Quarto"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Abdullah Zeeshan",
-    "section": "",
-    "text": "Note\n\n\n\nThis website is under construction at the moment. Please check my GitHub/LinkedIn in the meantime."
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nWhat Can We Blog About\n\n\n\n\n\n\nblog\n\n\n\nMy understanding of the things we can blog about.\n\n\n\n\n\nMar 12, 2025\n\n\nAbdullah Zeeshan\n\n\n\n\n\n\n\n\n\n\n\n\nHow to publish a Quarto blog post with GitHub Pages?\n\n\n\n\n\n\nblog\n\n\nquarto\n\n\n\nA summary of my workflow\n\n\n\n\n\nMar 12, 2025\n\n\nAbdullah Zeeshan\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/what-can-we-blog-about/index.html",
@@ -112,10 +77,201 @@
     "text": "Resources\n\nA Complete Step-by-Step Guide to Start a Blog for Software Developers - The Ankur Tyagi\nWhy you (yes, you) should blog. The top advice I would give my younger… | by Rachel Thomas | Medium\nAdvice for Better Blog Posts – fast.ai\nHow to Blog to Advance Your Career and Learn Faster - YouTube\n“advice” for aspiring tech bloggers"
   },
   {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": "Blog",
+    "objectID": "projects/cv-application.html",
+    "href": "projects/cv-application.html",
+    "title": "CV Application",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nWhat Can We Blog About\n\n\n\n\n\n\nblog\n\n\n\nMy understanding of the things we can blog about.\n\n\n\n\n\nMar 12, 2025\n\n\nAbdullah Zeeshan\n\n\n\n\n\n\n\n\n\n\n\n\nHow to publish a Quarto blog post with GitHub Pages?\n\n\n\n\n\n\nblog\n\n\nquarto\n\n\n\nA summary of my workflow\n\n\n\n\n\nMar 12, 2025\n\n\nAbdullah Zeeshan\n\n\n\n\n\n\nNo matching items"
+    "text": "Live  Source Code \n\n\n\n\n\n\nNote\n\n\n\nProject Description will be added soon."
+  },
+  {
+    "objectID": "projects/file-uploader.html",
+    "href": "projects/file-uploader.html",
+    "title": "File Uploader",
+    "section": "",
+    "text": "Live  Source Code \n\n\n\n\n\n\nNote\n\n\n\nProject Description will be added soon."
+  },
+  {
+    "objectID": "projects/inventory-application.html",
+    "href": "projects/inventory-application.html",
+    "title": "Inventory Application",
+    "section": "",
+    "text": "Live  Source Code \n\n\n\n\n\n\nNote\n\n\n\nProject Description will be added soon."
+  },
+  {
+    "objectID": "projects/memory-card.html",
+    "href": "projects/memory-card.html",
+    "title": "Memory Card",
+    "section": "",
+    "text": "Live  Source Code \n\n\n\n\n\n\nNote\n\n\n\nProject Description will be added soon."
+  },
+  {
+    "objectID": "projects/etch-a-sketch.html",
+    "href": "projects/etch-a-sketch.html",
+    "title": "Etch A Sketch",
+    "section": "",
+    "text": "Live  Source Code \n\n\n\n\n\n\nNote\n\n\n\nProject Description will be added soon."
+  },
+  {
+    "objectID": "projects/calculator.html",
+    "href": "projects/calculator.html",
+    "title": "Calculator",
+    "section": "",
+    "text": "Live  Source Code \n\n\n\n\n\n\nNote\n\n\n\nProject Description will be added soon."
+  },
+  {
+    "objectID": "projects/battleship.html",
+    "href": "projects/battleship.html",
+    "title": "Battleship",
+    "section": "",
+    "text": "Live  Source Code \n\n\n\n\n\n\nNote\n\n\n\nProject Description will be added soon."
+  },
+  {
+    "objectID": "projects/weather-app.html",
+    "href": "projects/weather-app.html",
+    "title": "Weather App",
+    "section": "",
+    "text": "Live  Source Code \n\n\n\n\n\n\nNote\n\n\n\nProject Description will be added soon."
+  },
+  {
+    "objectID": "projects/rock-paper-scissors.html",
+    "href": "projects/rock-paper-scissors.html",
+    "title": "Rock Paper Scissors",
+    "section": "",
+    "text": "Live  Source Code \n\n\n\n\n\n\nNote\n\n\n\nProject Description will be added soon."
+  },
+  {
+    "objectID": "projects/landing-page.html",
+    "href": "projects/landing-page.html",
+    "title": "Landing Page",
+    "section": "",
+    "text": "Live  Source Code \n\n\n\n\n\n\nNote\n\n\n\nProject Description will be added soon."
+  },
+  {
+    "objectID": "notes/the-odin-project/foundations/index.html",
+    "href": "notes/the-odin-project/foundations/index.html",
+    "title": "Foundations",
+    "section": "",
+    "text": "The Foundations Course of The Odin Project is divided into nine sections.\nThey are the following:\n\nOverview\nIntroduction\nPrerequisites\nGit Basics\nHTML Foundations\nCSS Foundations\nFlexbox\nJavaScript Basics\nConclusion",
+    "crumbs": [
+      "The Odin Project",
+      "Foundations"
+    ]
+  },
+  {
+    "objectID": "notes/the-odin-project/foundations/overview/index.html",
+    "href": "notes/the-odin-project/foundations/overview/index.html",
+    "title": "Overview",
+    "section": "",
+    "text": "This is where it all begins! A hands-on introduction to all of the essential tools you’ll need to build real, working websites. You’ll learn what web developers actually do – the foundations you’ll need for later courses.",
+    "crumbs": [
+      "The Odin Project",
+      "Foundations",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "projects/homepage.html",
+    "href": "projects/homepage.html",
+    "title": "Homepage",
+    "section": "",
+    "text": "Live  Source Code \n\n\n\n\n\n\nNote\n\n\n\nProject Description will be added soon."
+  },
+  {
+    "objectID": "projects/todo-list.html",
+    "href": "projects/todo-list.html",
+    "title": "Todo List",
+    "section": "",
+    "text": "Live  Source Code \n\n\n\n\n\n\nNote\n\n\n\nProject Description will be added soon."
+  },
+  {
+    "objectID": "projects/tic-tac-toe.html",
+    "href": "projects/tic-tac-toe.html",
+    "title": "Tic Tac Toe",
+    "section": "",
+    "text": "Live  Source Code \n\n\n\n\n\n\nNote\n\n\n\nProject Description will be added soon."
+  },
+  {
+    "objectID": "projects/e-shop-site.html",
+    "href": "projects/e-shop-site.html",
+    "title": "E Shop Site",
+    "section": "",
+    "text": "Live  Source Code \n\n\n\n\n\n\nNote\n\n\n\nProject Description will be added soon."
+  },
+  {
+    "objectID": "projects/library.html",
+    "href": "projects/library.html",
+    "title": "Library",
+    "section": "",
+    "text": "Live  Source Code \n\n\n\n\n\n\nNote\n\n\n\nProject Description will be added soon."
+  },
+  {
+    "objectID": "projects/sign-up-form.html",
+    "href": "projects/sign-up-form.html",
+    "title": "Sign-up Form",
+    "section": "",
+    "text": "Live  Source Code \n\n\n\n\n\n\nNote\n\n\n\nProject Description will be added soon."
+  },
+  {
+    "objectID": "projects/shopping-cart.html",
+    "href": "projects/shopping-cart.html",
+    "title": "Shopping Cart",
+    "section": "",
+    "text": "Live  Source Code \n\n\n\n\n\n\nNote\n\n\n\nProject Description will be added soon."
+  },
+  {
+    "objectID": "projects/blog-api.html",
+    "href": "projects/blog-api.html",
+    "title": "Blog API",
+    "section": "",
+    "text": "Source Code  Live Viewing Site (Sample)  Live Authoring Site (Sample) \n\n\n\n\n\n\nNote\n\n\n\nProject Description will be added soon."
+  },
+  {
+    "objectID": "projects/messaging-app.html",
+    "href": "projects/messaging-app.html",
+    "title": "Messaging App",
+    "section": "",
+    "text": "Live  Backend  Frontend \n\n\n\n\n\n\nNote\n\n\n\nProject Description will be added soon."
+  },
+  {
+    "objectID": "projects/members-only.html",
+    "href": "projects/members-only.html",
+    "title": "Members Only",
+    "section": "",
+    "text": "Live  Source Code \n\n\n\n\n\n\nNote\n\n\n\nProject Description will be added soon."
+  },
+  {
+    "objectID": "posts/how-to-publish-a-quarto-blog-post-with-github-pages/index.html",
+    "href": "posts/how-to-publish-a-quarto-blog-post-with-github-pages/index.html",
+    "title": "How to publish a Quarto blog post with GitHub Pages?",
+    "section": "",
+    "text": "quarto render"
+  },
+  {
+    "objectID": "posts/how-to-publish-a-quarto-blog-post-with-github-pages/index.html#step-1.-ask-quarto-to-render",
+    "href": "posts/how-to-publish-a-quarto-blog-post-with-github-pages/index.html#step-1.-ask-quarto-to-render",
+    "title": "How to publish a Quarto blog post with GitHub Pages?",
+    "section": "",
+    "text": "quarto render"
+  },
+  {
+    "objectID": "posts/how-to-publish-a-quarto-blog-post-with-github-pages/index.html#step-2-github-related",
+    "href": "posts/how-to-publish-a-quarto-blog-post-with-github-pages/index.html#step-2-github-related",
+    "title": "How to publish a Quarto blog post with GitHub Pages?",
+    "section": "Step 2: GitHub Related",
+    "text": "Step 2: GitHub Related\ngit add docs\ngit commit -m \"Publish site to docs/\"\ngit push"
+  },
+  {
+    "objectID": "posts/how-to-publish-a-quarto-blog-post-with-github-pages/index.html#step-3-ask-quarto-to-publish-on-gh-pages",
+    "href": "posts/how-to-publish-a-quarto-blog-post-with-github-pages/index.html#step-3-ask-quarto-to-publish-on-gh-pages",
+    "title": "How to publish a Quarto blog post with GitHub Pages?",
+    "section": "Step 3: Ask Quarto to publish on gh-pages",
+    "text": "Step 3: Ask Quarto to publish on gh-pages\nquarto publish gh-pages"
+  },
+  {
+    "objectID": "posts/how-to-publish-a-quarto-blog-post-with-github-pages/index.html#references",
+    "href": "posts/how-to-publish-a-quarto-blog-post-with-github-pages/index.html#references",
+    "title": "How to publish a Quarto blog post with GitHub Pages?",
+    "section": "References",
+    "text": "References\n\nGitHub Pages – Quarto"
   }
 ]
