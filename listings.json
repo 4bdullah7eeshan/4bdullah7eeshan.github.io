@@ -1,11 +1,5 @@
 [
   {
-    "listing": "/notes.html",
-    "items": [
-      "/sources/the-odin-project/index.html"
-    ]
-  },
-  {
     "listing": "/blog.html",
     "items": [
       "/posts/what-can-we-blog-about/index.html",
