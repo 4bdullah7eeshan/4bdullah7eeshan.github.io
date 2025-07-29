@@ -1,6 +1,7 @@
 ---
-title: Welcome to Quartz
+title: Fiza-E-Danish
 ---
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+Welcome!
+
+This is my [[Digital Garden]] created using [Quartz](https://quartz.jzhao.xyz/).
