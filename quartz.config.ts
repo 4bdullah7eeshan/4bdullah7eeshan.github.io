@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Quartz 4",
+    pageTitle: "Fiza-E-Danish",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
@@ -16,15 +16,15 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "quartz.jzhao.xyz",
+    baseUrl: "4bdullah7eeshan.github.io/fiza-e-danish",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Schibsted Grotesk",
-        body: "Source Sans Pro",
+        header: "Playfair Display",
+        body: "Montserrat",
         code: "IBM Plex Mono",
       },
       colors: {
