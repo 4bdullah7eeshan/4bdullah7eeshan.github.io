@@ -357,18 +357,11 @@
     "text": "Test The Model\nOur model is ready to be tested!\nLet us input the images we stored at the beginning and see its results.\n\nwhich_continent_is_it,_,probs = learn.predict(PILImage.create('africa.jpg'))\nprint(f\"This is: {which_continent_is_it}.\")\nprint(f\"Probability: {probs[0]:.4f}\")\n\n\n\n\n\n\n\n\nThis is: africa.\nProbability: 0.9926\n\n\n\nwhich_continent_is_it,_,probs = learn.predict(PILImage.create('antarctica.jpg'))\nprint(f\"This is: {which_continent_is_it}.\")\nprint(f\"Probability: {probs[1]:.4f}\")\n\n\n\n\n\n\n\n\nThis is: antarctica.\nProbability: 0.9998\n\n\n\nwhich_continent_is_it,_,probs = learn.predict(PILImage.create('asia.jpg'))\nprint(f\"This is: {which_continent_is_it}.\")\nprint(f\"Probability: {probs[2]:.4f}\")\n\n\n\n\n\n\n\n\nThis is: asia.\nProbability: 1.0000\n\n\n\nwhich_continent_is_it,_,probs = learn.predict(PILImage.create('australia.jpg'))\nprint(f\"This is: {which_continent_is_it}.\")\nprint(f\"Probability: {probs[3]:.4f}\")\n\n\n\n\n\n\n\n\nThis is: australia.\nProbability: 0.9995\n\n\n\nwhich_continent_is_it,_,probs = learn.predict(PILImage.create('europe.jpg'))\nprint(f\"This is: {which_continent_is_it}.\")\nprint(f\"Probability: {probs[4]:.4f}\")\n\n\n\n\n\n\n\n\nThis is: europe.\nProbability: 0.9992\n\n\n\nwhich_continent_is_it,_,probs = learn.predict(PILImage.create('north_america.jpg'))\nprint(f\"This is: {which_continent_is_it}.\")\nprint(f\"Probability: {probs[5]:.4f}\")\n\n\n\n\n\n\n\n\nThis is: north america.\nProbability: 0.9999\n\n\n\nwhich_continent_is_it,_,probs = learn.predict(PILImage.create('south_america.jpg'))\nprint(f\"This is: {which_continent_is_it}.\")\nprint(f\"Probability: {probs[6]:.4f}\")\n\n\n\n\n\n\n\n\nThis is: south america.\nProbability: 0.9978\n\n\nLooks pretty impressive isn’t it?!\nIf you have any ideas of your own feel free to try them out."
   },
   {
-    "objectID": "posts/how-to-publish-a-quarto-blog-post-with-github-pages/index.html",
-    "href": "posts/how-to-publish-a-quarto-blog-post-with-github-pages/index.html",
-    "title": "How to publish a Quarto blog post with GitHub Pages?",
-    "section": "",
-    "text": "quarto render"
-  },
-  {
     "objectID": "posts/how-to-publish-a-quarto-blog-post-with-github-pages/index.html#step-1.-ask-quarto-to-render",
     "href": "posts/how-to-publish-a-quarto-blog-post-with-github-pages/index.html#step-1.-ask-quarto-to-render",
     "title": "How to publish a Quarto blog post with GitHub Pages?",
-    "section": "",
-    "text": "quarto render"
+    "section": "Step 1. Ask Quarto to Render",
+    "text": "Step 1. Ask Quarto to Render\nquarto render"
   },
   {
     "objectID": "posts/how-to-publish-a-quarto-blog-post-with-github-pages/index.html#step-2-github-related",
