@@ -2,33 +2,14 @@
   {
     "listing": "/index.html",
     "items": [
-      "/posts/how-to-publish-a-quarto-blog-post-with-github-pages/index.html",
       "/posts/how-to-write-action-captions-on-graphics-of-proposals/index.html",
+      "/posts/how-to-publish-a-quarto-blog-post-with-github-pages/index.html",
       "/posts/segmentation/segmentation.html",
       "/posts/colored-cups/index.html",
       "/posts/how-to-run-a-linux-subsystem-in-windows/index.html",
       "/posts/teaching-ai-some-geography/continents_classifier.html",
       "/posts/frolicking-with-ai-generated-art/index.html",
-      "/projects/messaging-app.html",
-      "/projects/blog-api.html",
-      "/projects/file-uploader.html",
-      "/projects/shopping-cart.html",
-      "/projects/memory-card.html",
-      "/projects/cv-application.html",
-      "/projects/members-only.html",
-      "/projects/inventory-application.html",
-      "/projects/battleship.html",
-      "/projects/weather-app.html",
-      "/projects/todo-list.html",
-      "/projects/tic-tac-toe.html",
-      "/projects/e-shop-site.html",
-      "/projects/library.html",
-      "/projects/homepage.html",
-      "/projects/sign-up-form.html",
-      "/projects/calculator.html",
-      "/projects/etch-a-sketch.html",
-      "/projects/rock-paper-scissors.html",
-      "/projects/landing-page.html"
+      "/projects/bid-and-proposals-toolkit.html"
     ]
   },
   {
@@ -46,26 +27,7 @@
   {
     "listing": "/projects.html",
     "items": [
-      "/projects/messaging-app.html",
-      "/projects/blog-api.html",
-      "/projects/file-uploader.html",
-      "/projects/shopping-cart.html",
-      "/projects/memory-card.html",
-      "/projects/cv-application.html",
-      "/projects/members-only.html",
-      "/projects/inventory-application.html",
-      "/projects/battleship.html",
-      "/projects/weather-app.html",
-      "/projects/todo-list.html",
-      "/projects/tic-tac-toe.html",
-      "/projects/e-shop-site.html",
-      "/projects/library.html",
-      "/projects/homepage.html",
-      "/projects/sign-up-form.html",
-      "/projects/calculator.html",
-      "/projects/rock-paper-scissors.html",
-      "/projects/etch-a-sketch.html",
-      "/projects/landing-page.html"
+      "/projects/bid-and-proposals-toolkit.html"
     ]
   }
 ]

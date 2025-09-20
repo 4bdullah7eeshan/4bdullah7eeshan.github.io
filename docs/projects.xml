@@ -10,124 +10,59 @@
 <atom:link href="https://4bdullah7eeshan.github.io/projects.xml" rel="self" type="application/rss+xml"/>
 <description>My Personal Website</description>
 <generator>quarto-1.6.39</generator>
-<lastBuildDate>Wed, 04 Dec 2024 21:00:00 GMT</lastBuildDate>
+<lastBuildDate>Fri, 19 Sep 2025 21:00:00 GMT</lastBuildDate>
 <item>
-  <title>Messaging App</title>
+  <title>Bid &amp; Proposals Toolkit</title>
   <dc:creator>Abdullah Zeeshan</dc:creator>
-  <link>https://4bdullah7eeshan.github.io/projects/messaging-app.html</link>
+  <link>https://4bdullah7eeshan.github.io/projects/bid-and-proposals-toolkit.html</link>
   <description><![CDATA[ 
 
 
 
 
 
-<p><span class="listing-btn-group"> <a href="https://messaging-app-frontend-dusky.vercel.app/" class="btn">{{&lt; fa globe &gt;}} Live</a> <a href="https://github.com/4bdullah7eeshan/messaging-app-backend" class="btn">{{&lt; iconify fa github &gt;}} Backend</a> <a href="https://github.com/4bdullah7eeshan/messaging-app-frontend" class="btn">{{&lt; iconify fa github &gt;}} Frontend</a> </span></p>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Note
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Project Description will be added soon.</p>
-</div>
-</div>
+<p><span class="listing-btn-group"> <a href="https://onedrive.live.com/:x:/g/personal/B02E0AC1E68FE6B7/EaMeB6LVludAtIvFA8XzM7cBHE3oIgsH8Icrp2e1DjFDYA?resid=B02E0AC1E68FE6B7!sa2071ea396d540e7b48bc503c5f333b7&amp;ithint=file%2Cxlsx&amp;e=m122lj&amp;migratedtospo=true&amp;redeem=aHR0cHM6Ly8xZHJ2Lm1zL3gvYy9iMDJlMGFjMWU2OGZlNmI3L0VhTWVCNkxWbHVkQXRJdkZBOFh6TTdjQkhFM29JZ3NIOEljcnAyZTFEakZEWUE_ZT1tMTIybGo" class="btn"><i class="fa-solid fa-globe" aria-label="globe"></i> View</a> </span></p>
+<section id="about" class="level2">
+<h2 class="anchored" data-anchor-id="about">About</h2>
+<p>Developed a comprehensive bid and proposal toolkit containing 20+ of the most frequently used tools.</p>
+<section id="list-of-tools" class="level3">
+<h3 class="anchored" data-anchor-id="list-of-tools">List of tools</h3>
+<ul>
+<li>Action Item Tracking Matrix</li>
+<li>Bidder Comparison Matrix (BCM)</li>
+<li>Bid/No-Bid Decision</li>
+<li>Bid Pursuit Decision</li>
+<li>Bid Validation Decision</li>
+<li>Business Development Lifecycle</li>
+<li>Compliance Matrix</li>
+<li>Customer &amp; Competitor Intelligence Data Sources</li>
+<li>Customer Contact Plan</li>
+<li>End to End (E2E) Business Development Process</li>
+<li>Final Review</li>
+<li>Key Information Summary Sheet</li>
+<li>Opportunity Qualification Decision</li>
+<li>Proposal Responsibility Matrix</li>
+<li>Proposal Section Content Plan</li>
+<li>RACI Matrix</li>
+<li>Requirements Analysis Matrix</li>
+<li>Response Matrix</li>
+<li>RFP Customer Q &amp; A Tracker</li>
+<li>SME Interview</li>
+<li>SWOT Analysis</li>
+</ul>
 
 
-
-<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
-  <category>Node.js</category>
-  <category>Express</category>
-  <category>PostgreSQL</category>
-  <category>Prisma ORM</category>
-  <category>REST API</category>
-  <category>JWT</category>
-  <category>Passport</category>
-  <category>React</category>
-  <category>Tailwind</category>
-  <guid>https://4bdullah7eeshan.github.io/projects/messaging-app.html</guid>
-  <pubDate>Wed, 04 Dec 2024 21:00:00 GMT</pubDate>
-  <media:content url="https://4bdullah7eeshan.github.io/utils/messaging-app.png" medium="image" type="image/png" height="81" width="144"/>
-</item>
-<item>
-  <title>Blog API</title>
-  <dc:creator>Abdullah Zeeshan</dc:creator>
-  <link>https://4bdullah7eeshan.github.io/projects/blog-api.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p><span class="listing-btn-group"> <a href="https://github.com/4bdullah7eeshan/blog-api/" class="btn">{{&lt; iconify fa github &gt;}} Source Code</a> <a href="https://4bdullah7eeshan.github.io/blog-frontend-user/" class="btn">{{&lt; fa globe &gt;}} Live Viewing Site (Sample)</a> <a href="https://4bdullah7eeshan.github.io/blog-frontend-author/" class="btn">{{&lt; fa globe &gt;}} Live Authoring Site (Sample)</a> </span></p>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Note
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Project Description will be added soon.</p>
-</div>
-</div>
-
-
+</section>
+</section>
 
 <a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
-  <category>Node.js</category>
-  <category>Express</category>
-  <category>PostgreSQL</category>
-  <category>Prisma ORM</category>
-  <category>REST API</category>
-  <category>JWT</category>
-  <category>Passport</category>
-  <guid>https://4bdullah7eeshan.github.io/projects/blog-api.html</guid>
-  <pubDate>Sun, 10 Nov 2024 21:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>File Uploader</title>
-  <dc:creator>Abdullah Zeeshan</dc:creator>
-  <link>https://4bdullah7eeshan.github.io/projects/file-uploader.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p><span class="listing-btn-group"> <a href="https://file-uploader-ewv2.onrender.com/" class="btn">{{&lt; fa globe &gt;}} Live</a> <a href="https://github.com/4bdullah7eeshan/file-uploader" class="btn">{{&lt; iconify fa github &gt;}} Source Code</a> </span></p>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Note
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Project Description will be added soon.</p>
-</div>
-</div>
-
-
-
-<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
-  <category>Node.js</category>
-  <category>Express</category>
-  <category>PostgreSQL</category>
-  <category>Prisma ORM</category>
-  <category>Passport</category>
-  <category>EJS</category>
-  <category>Cloudinary</category>
-  <guid>https://4bdullah7eeshan.github.io/projects/file-uploader.html</guid>
-  <pubDate>Mon, 04 Nov 2024 21:00:00 GMT</pubDate>
-  <media:content url="https://4bdullah7eeshan.github.io/utils/file-uploader.png" medium="image" type="image/png" height="81" width="144"/>
+  <category>Excel</category>
+  <category>APMP</category>
+  <category>Proposal</category>
+  <category>Bid</category>
+  <guid>https://4bdullah7eeshan.github.io/projects/bid-and-proposals-toolkit.html</guid>
+  <pubDate>Fri, 19 Sep 2025 21:00:00 GMT</pubDate>
+  <media:content url="https://4bdullah7eeshan.github.io/utils/bid-and-proposal-toolkit.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
