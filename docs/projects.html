@@ -72,7 +72,7 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    const listingTargetEl = window.document.querySelector('#listing-bid-and-proposals .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
@@ -85,7 +85,35 @@ ul.task-list li input[type="checkbox"] {
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+    window['quarto-listings']['listing-bid-and-proposals'] = new List('listing-bid-and-proposals', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-full-stack-development .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-subtitle','listing-description','listing-image','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-full-stack-development'] = new List('listing-full-stack-development', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -200,8 +228,15 @@ window.Quarto = {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div><div class="category" data-category="QVBNUA==">APMP <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Qmlk">Bid <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RXhjZWw=">Excel <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UHJvcG9zYWw=">Proposal <span class="quarto-category-count">(1)</span></div></div></div>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#bid-proposals" id="toc-bid-proposals" class="nav-link active" data-scroll-target="#bid-proposals">Bid &amp; Proposals</a></li>
+  <li><a href="#full-stack-development" id="toc-full-stack-development" class="nav-link" data-scroll-target="#full-stack-development">Full Stack Development</a></li>
+  </ul>
+</nav>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(21)</span></div><div class="category" data-category="QVBJ">API <span class="quarto-category-count">(1)</span></div><div class="category" data-category="QVBNUA==">APMP <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Qmlk">Bid <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Qm9vdHN0cmFw">Bootstrap <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Q1NT">CSS <span class="quarto-category-count">(10)</span></div><div class="category" data-category="Q1NTJTIwTW9kdWxlcw==">CSS Modules <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Q2xvdWRpbmFyeQ==">Cloudinary <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RUpT">EJS <span class="quarto-category-count">(2)</span></div><div class="category" data-category="RXhjZWw=">Excel <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RXhwcmVzcw==">Express <span class="quarto-category-count">(5)</span></div><div class="category" data-category="SFRNTA==">HTML <span class="quarto-category-count">(10)</span></div><div class="category" data-category="SldU">JWT <span class="quarto-category-count">(2)</span></div><div class="category" data-category="SmF2YVNjcmlwdA==">JavaScript <span class="quarto-category-count">(5)</span></div><div class="category" data-category="SmF2YVNjcmlwdCUyMChBc3luY2hyb25vdXMlMjAp">JavaScript (Asynchronous ) <span class="quarto-category-count">(1)</span></div><div class="category" data-category="SmF2YVNjcmlwdCUyMChFUzYp">JavaScript (ES6) <span class="quarto-category-count">(2)</span></div><div class="category" data-category="SmVzdA==">Jest <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Tm9kZS5qcw==">Node.js <span class="quarto-category-count">(5)</span></div><div class="category" data-category="T09Q">OOP <span class="quarto-category-count">(4)</span></div><div class="category" data-category="UGFzc3BvcnQ=">Passport <span class="quarto-category-count">(4)</span></div><div class="category" data-category="UG9zdGdyZVNRTA==">PostgreSQL <span class="quarto-category-count">(5)</span></div><div class="category" data-category="UHJpc21hJTIwT1JN">Prisma ORM <span class="quarto-category-count">(3)</span></div><div class="category" data-category="UHJvcG9zYWw=">Proposal <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UkVTVCUyMEFQSQ==">REST API <span class="quarto-category-count">(2)</span></div><div class="category" data-category="UlRM">RTL <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UmVhY3Q=">React <span class="quarto-category-count">(4)</span></div><div class="category" data-category="UmVhY3QlMjBSb3V0ZXI=">React Router <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UmVzcG9uc2l2ZQ==">Responsive <span class="quarto-category-count">(2)</span></div><div class="category" data-category="U09MSUQlMjBQcmluY2lwbGVz">SOLID Principles <span class="quarto-category-count">(1)</span></div><div class="category" data-category="U1FM">SQL <span class="quarto-category-count">(2)</span></div><div class="category" data-category="VERE">TDD <span class="quarto-category-count">(1)</span></div><div class="category" data-category="VGFpbHdpbmQ=">Tailwind <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Vml0ZQ==">Vite <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Vml0ZXN0">Vitest <span class="quarto-category-count">(1)</span></div><div class="category" data-category="V2VicGFjaw==">Webpack <span class="quarto-category-count">(2)</span></div></div></div>
 <!-- main -->
 <main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
@@ -209,14 +244,12 @@ window.Quarto = {
 
 
 
-
-
-
-
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<section id="bid-proposals" class="level2">
+<h2 class="anchored" data-anchor-id="bid-proposals">Bid &amp; Proposals</h2>
+<div id="listing-bid-and-proposals" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="RXhjZWwlMkNBUE1QJTJDUHJvcG9zYWwlMkNCaWQ=" data-listing-date-sort="1758315600000" data-listing-file-modified-sort="1758352646465" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="97">
-<a href="./projects/bid-and-proposals-toolkit.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="0" data-categories="RXhjZWwlMkNBUE1QJTJDUHJvcG9zYWwlMkNCaWQ=" data-listing-date-sort="1758315600000" data-listing-file-modified-sort="1758377139171" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="97">
+<a href="./projects/bid-and-proposals/bid-and-proposals-toolkit.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
 <img loading="lazy" src="./utils/bid-and-proposal-toolkit.jpg" class="thumbnail-image card-img" style="height: 25;">
@@ -253,7 +286,713 @@ A collection of processes, tools, trackers, and templates for bids &amp; proposa
 <div class="listing-no-matching d-none">
 No matching items
 </div>
-</div><a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
+</div>
+</section>
+<section id="full-stack-development" class="level2">
+<h2 class="anchored" data-anchor-id="full-stack-development">Full Stack Development</h2>
+<div id="listing-full-stack-development" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="Tm9kZS5qcyUyQ0V4cHJlc3MlMkNQb3N0Z3JlU1FMJTJDUHJpc21hJTIwT1JNJTJDUkVTVCUyMEFQSSUyQ0pXVCUyQ1Bhc3Nwb3J0JTJDUmVhY3QlMkNUYWlsd2luZA==" data-listing-date-sort="1733346000000" data-listing-file-modified-sort="1758377077827" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="32">
+<a href="./projects/full-stack-development/messaging-app.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./utils/messaging-app.png" class="thumbnail-image card-img" style="height: 25;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Messaging App
+</h5>
+<div class="card-subtitle listing-subtitle">
+Full Stack
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Tm9kZS5qcw=='); return false;">
+Node.js
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('RXhwcmVzcw=='); return false;">
+Express
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('UG9zdGdyZVNRTA=='); return false;">
+PostgreSQL
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('UHJpc21hJTIwT1JN'); return false;">
+Prisma ORM
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('UkVTVCUyMEFQSQ=='); return false;">
+REST API
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('SldU'); return false;">
+JWT
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('UGFzc3BvcnQ='); return false;">
+Passport
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('UmVhY3Q='); return false;">
+React
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('VGFpbHdpbmQ='); return false;">
+Tailwind
+</div>
+</div>
+<div class="card-text listing-description">
+Web-based messaging app where authenticated users can chat one-one by sending and receiving messages and files.
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="Tm9kZS5qcyUyQ0V4cHJlc3MlMkNQb3N0Z3JlU1FMJTJDUHJpc21hJTIwT1JNJTJDUkVTVCUyMEFQSSUyQ0pXVCUyQ1Bhc3Nwb3J0" data-listing-date-sort="1731272400000" data-listing-file-modified-sort="1741741722734" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="38">
+<a href="./projects/full-stack-development/blog-api.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img src="https://cdn.pixabay.com/photo/2020/01/07/06/36/web-4746871_1280.png" style="height: 25;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Blog API
+</h5>
+<div class="card-subtitle listing-subtitle">
+Backend
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Tm9kZS5qcw=='); return false;">
+Node.js
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('RXhwcmVzcw=='); return false;">
+Express
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('UG9zdGdyZVNRTA=='); return false;">
+PostgreSQL
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('UHJpc21hJTIwT1JN'); return false;">
+Prisma ORM
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('UkVTVCUyMEFQSQ=='); return false;">
+REST API
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('SldU'); return false;">
+JWT
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('UGFzc3BvcnQ='); return false;">
+Passport
+</div>
+</div>
+<div class="card-text listing-description">
+An API-only backend for blogging platforms, featuring two front-ends: one for readers, and another for authors.
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="Tm9kZS5qcyUyQ0V4cHJlc3MlMkNQb3N0Z3JlU1FMJTJDUHJpc21hJTIwT1JNJTJDUGFzc3BvcnQlMkNFSlMlMkNDbG91ZGluYXJ5" data-listing-date-sort="1730754000000" data-listing-file-modified-sort="1758377037359" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="25">
+<a href="./projects/full-stack-development/file-uploader.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./utils/file-uploader.png" class="thumbnail-image card-img" style="height: 25;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+File Uploader
+</h5>
+<div class="card-subtitle listing-subtitle">
+Full Stack
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Tm9kZS5qcw=='); return false;">
+Node.js
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('RXhwcmVzcw=='); return false;">
+Express
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('UG9zdGdyZVNRTA=='); return false;">
+PostgreSQL
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('UHJpc21hJTIwT1JN'); return false;">
+Prisma ORM
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('UGFzc3BvcnQ='); return false;">
+Passport
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('RUpT'); return false;">
+EJS
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Q2xvdWRpbmFyeQ=='); return false;">
+Cloudinary
+</div>
+</div>
+<div class="card-text listing-description">
+Cloud storage application enabling authenticated users to upload files and organize them into folders.
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="3" data-categories="UmVhY3QlMkNSZWFjdCUyMFJvdXRlciUyQ1JUTCUyQ1ZpdGVzdCUyQ0NTUyUyME1vZHVsZXMlMkNWaXRl" data-listing-date-sort="1729630800000" data-listing-file-modified-sort="1758377104919" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="25">
+<a href="./projects/full-stack-development/shopping-cart.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./utils/shopping-cart.png" class="thumbnail-image card-img" style="height: 25;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Shopping Cart
+</h5>
+<div class="card-subtitle listing-subtitle">
+Frontend
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('UmVhY3Q='); return false;">
+React
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('UmVhY3QlMjBSb3V0ZXI='); return false;">
+React Router
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('UlRM'); return false;">
+RTL
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Vml0ZXN0'); return false;">
+Vitest
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Q1NTJTIwTW9kdWxlcw=='); return false;">
+CSS Modules
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Vml0ZQ=='); return false;">
+Vite
+</div>
+</div>
+<div class="card-text listing-description">
+A web-based e-commerce app featuring essential functionalities, including product display, cart management, and checkout.
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="4" data-categories="UmVhY3QlMkNWaXRl" data-listing-date-sort="1729458000000" data-listing-file-modified-sort="1758377069479" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="25">
+<a href="./projects/full-stack-development/memory-card.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./utils/memory-card.png" class="thumbnail-image card-img" style="height: 25;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Memory Card
+</h5>
+<div class="card-subtitle listing-subtitle">
+Frontend
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('UmVhY3Q='); return false;">
+React
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Vml0ZQ=='); return false;">
+Vite
+</div>
+</div>
+<div class="card-text listing-description">
+A fun and interactive memory card game built with React, featuring dynamic card shuffling, score tracking, and Pokémon API integration.
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="5" data-categories="UmVhY3QlMkNWaXRl" data-listing-date-sort="1729198800000" data-listing-file-modified-sort="1758377019951" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="25">
+<a href="./projects/full-stack-development/cv-application.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./utils/cv-application.png" class="thumbnail-image card-img" style="height: 25;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+CV Application
+</h5>
+<div class="card-subtitle listing-subtitle">
+Frontend
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('UmVhY3Q='); return false;">
+React
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Vml0ZQ=='); return false;">
+Vite
+</div>
+</div>
+<div class="card-text listing-description">
+A dynamic web app that allows users to input their information and generates a live CV with an option to download the PDF.
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="6" data-categories="Tm9kZS5qcyUyQ0V4cHJlc3MlMkNTUUwlMkNQb3N0Z3JlU1FMJTJDUGFzc3BvcnQ=" data-listing-date-sort="1727470800000" data-listing-file-modified-sort="1758377064219" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="25">
+<a href="./projects/full-stack-development/members-only.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./utils/members-only.png" class="thumbnail-image card-img" style="height: 25;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Members Only
+</h5>
+<div class="card-subtitle listing-subtitle">
+Full Stack
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Tm9kZS5qcw=='); return false;">
+Node.js
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('RXhwcmVzcw=='); return false;">
+Express
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('U1FM'); return false;">
+SQL
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('UG9zdGdyZVNRTA=='); return false;">
+PostgreSQL
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('UGFzc3BvcnQ='); return false;">
+Passport
+</div>
+</div>
+<div class="card-text listing-description">
+An exclusive clubhouse where members can write anonymous posts.
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="7" data-categories="Tm9kZS5qcyUyQ0V4cHJlc3MlMkNTUUwlMkNQb3N0Z3JlU1FMJTJDRUpT" data-listing-date-sort="1727211600000" data-listing-file-modified-sort="1758377048887" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="25">
+<a href="./projects/full-stack-development/inventory-application.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./utils/inventory-application.png" class="thumbnail-image card-img" style="height: 25;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Inventory Application
+</h5>
+<div class="card-subtitle listing-subtitle">
+Full Stack
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Tm9kZS5qcw=='); return false;">
+Node.js
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('RXhwcmVzcw=='); return false;">
+Express
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('U1FM'); return false;">
+SQL
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('UG9zdGdyZVNRTA=='); return false;">
+PostgreSQL
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('RUpT'); return false;">
+EJS
+</div>
+</div>
+<div class="card-text listing-description">
+An inventory management app for an imaginary store created with Express and PostgreSQL
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="8" data-categories="SFRNTCUyQ0NTUyUyQ0phdmFTY3JpcHQlMjAoRVM2KSUyQ1dlYnBhY2slMkNKZXN0JTJDT09QJTJDVERE" data-listing-date-sort="1726693200000" data-listing-file-modified-sort="1758376990379" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="25">
+<a href="./projects/full-stack-development/battleship.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./utils/battleship.png" class="thumbnail-image card-img" style="height: 25;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Battleship
+</h5>
+<div class="card-subtitle listing-subtitle">
+Frontend
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('SFRNTA=='); return false;">
+HTML
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Q1NT'); return false;">
+CSS
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('SmF2YVNjcmlwdCUyMChFUzYp'); return false;">
+JavaScript (ES6)
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('V2VicGFjaw=='); return false;">
+Webpack
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('SmVzdA=='); return false;">
+Jest
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('T09Q'); return false;">
+OOP
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('VERE'); return false;">
+TDD
+</div>
+</div>
+<div class="card-text listing-description">
+Browser-based Battleship game built with HTML, CSS, and JavaScript, playable against the computer.
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="9" data-categories="SmF2YVNjcmlwdCUyMChBc3luY2hyb25vdXMlMjApJTJDQVBJ" data-listing-date-sort="1726434000000" data-listing-file-modified-sort="1758377129751" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="25">
+<a href="./projects/full-stack-development/weather-app.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./utils/weather-app.png" class="thumbnail-image card-img" style="height: 25;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Weather App
+</h5>
+<div class="card-subtitle listing-subtitle">
+Frontend
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('SmF2YVNjcmlwdCUyMChBc3luY2hyb25vdXMlMjAp'); return false;">
+JavaScript (Asynchronous )
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('QVBJ'); return false;">
+API
+</div>
+</div>
+<div class="card-text listing-description">
+A weather forecast site using the Visual Crossing API
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="10" data-categories="SmF2YVNjcmlwdCUyMChFUzYpJTJDV2VicGFjayUyQ09PUCUyQ1NPTElEJTIwUHJpbmNpcGxlcw==" data-listing-date-sort="1725310800000" data-listing-file-modified-sort="1758377124699" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="25">
+<a href="./projects/full-stack-development/todo-list.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./utils/todo-list.png" class="thumbnail-image card-img" style="height: 25;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Todo List
+</h5>
+<div class="card-subtitle listing-subtitle">
+Frontend
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('SmF2YVNjcmlwdCUyMChFUzYp'); return false;">
+JavaScript (ES6)
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('V2VicGFjaw=='); return false;">
+Webpack
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('T09Q'); return false;">
+OOP
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('U09MSUQlMjBQcmluY2lwbGVz'); return false;">
+SOLID Principles
+</div>
+</div>
+<div class="card-text listing-description">
+Todo list app built with HTML, CSS, and JavaScript, allowing users to create, organize, and manage tasks within projects.
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="11" data-categories="SFRNTCUyQ0NTUyUyQ0phdmFTY3JpcHQlMkNPT1A=" data-listing-date-sort="1724792400000" data-listing-file-modified-sort="1758377119107" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="25">
+<a href="./projects/full-stack-development/tic-tac-toe.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./utils/tic-tac-toe.png" class="thumbnail-image card-img" style="height: 25;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Tic Tac Toe
+</h5>
+<div class="card-subtitle listing-subtitle">
+Frontend
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('SFRNTA=='); return false;">
+HTML
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Q1NT'); return false;">
+CSS
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('SmF2YVNjcmlwdA=='); return false;">
+JavaScript
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('T09Q'); return false;">
+OOP
+</div>
+</div>
+<div class="card-text listing-description">
+A Tic Tac Toe game that you can play in your browser! Created with HTML, CSS, and JavaScript utilizing Factories &amp; Module Patterns (IIFEs).
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="12" data-categories="SFRNTCUyQ0NTUyUyQ1Jlc3BvbnNpdmUlMkNCb290c3RyYXA=" data-listing-date-sort="1724619600000" data-listing-file-modified-sort="1758377025399" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="25">
+<a href="./projects/full-stack-development/e-shop-site.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./utils/bakenest.png" class="thumbnail-image card-img" style="height: 25;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+E Shop Site
+</h5>
+<div class="card-subtitle listing-subtitle">
+Frontend
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('SFRNTA=='); return false;">
+HTML
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Q1NT'); return false;">
+CSS
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('UmVzcG9uc2l2ZQ=='); return false;">
+Responsive
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Qm9vdHN0cmFw'); return false;">
+Bootstrap
+</div>
+</div>
+<div class="card-text listing-description">
+Responsive mockup website for an online cake shop, showcasing products and user-friendly navigation.
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="13" data-categories="SFRNTCUyQ0NTUyUyQ0phdmFTY3JpcHQlMkNPT1A=" data-listing-date-sort="1724533200000" data-listing-file-modified-sort="1758377059087" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="25">
+<a href="./projects/full-stack-development/library.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./utils/library.png" class="thumbnail-image card-img" style="height: 25;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Library
+</h5>
+<div class="card-subtitle listing-subtitle">
+Frontend
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('SFRNTA=='); return false;">
+HTML
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Q1NT'); return false;">
+CSS
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('SmF2YVNjcmlwdA=='); return false;">
+JavaScript
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('T09Q'); return false;">
+OOP
+</div>
+</div>
+<div class="card-text listing-description">
+A small online personal library to track reading lists created with HTML, CSS &amp; JavaScript using constructors.
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="14" data-categories="SFRNTCUyQ0NTUyUyQ1Jlc3BvbnNpdmU=" data-listing-date-sort="1724187600000" data-listing-file-modified-sort="1758377043059" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="25">
+<a href="./projects/full-stack-development/homepage.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./utils/homepage.png" class="thumbnail-image card-img" style="height: 25;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Homepage
+</h5>
+<div class="card-subtitle listing-subtitle">
+Frontend
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('SFRNTA=='); return false;">
+HTML
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Q1NT'); return false;">
+CSS
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('UmVzcG9uc2l2ZQ=='); return false;">
+Responsive
+</div>
+</div>
+<div class="card-text listing-description">
+A responsive homepage site created with HTML &amp; CSS.
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="15" data-categories="SFRNTCUyQ0NTUw==" data-listing-date-sort="1723582800000" data-listing-file-modified-sort="1758377113355" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="25">
+<a href="./projects/full-stack-development/sign-up-form.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./utils/sign-up-form.png" class="thumbnail-image card-img" style="height: 25;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Sign-up Form
+</h5>
+<div class="card-subtitle listing-subtitle">
+Frontend
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('SFRNTA=='); return false;">
+HTML
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Q1NT'); return false;">
+CSS
+</div>
+</div>
+<div class="card-text listing-description">
+A sign-up form for an imaginary service.
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="16" data-categories="SFRNTCUyQ0NTUyUyQ0phdmFTY3JpcHQ=" data-listing-date-sort="1723237200000" data-listing-file-modified-sort="1758377013659" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="25">
+<a href="./projects/full-stack-development/calculator.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./utils/calculator.png" class="thumbnail-image card-img" style="height: 25;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Calculator
+</h5>
+<div class="card-subtitle listing-subtitle">
+Frontend
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('SFRNTA=='); return false;">
+HTML
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Q1NT'); return false;">
+CSS
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('SmF2YVNjcmlwdA=='); return false;">
+JavaScript
+</div>
+</div>
+<div class="card-text listing-description">
+An on-screen calculator with keyboard support featuring basic arithmetic operations.
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="17" data-categories="SFRNTCUyQ0NTUyUyQ0phdmFTY3JpcHQ=" data-listing-date-sort="1723064400000" data-listing-file-modified-sort="1758377083959" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="25">
+<a href="./projects/full-stack-development/rock-paper-scissors.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./utils/rock-paper-scissors.png" class="thumbnail-image card-img" style="height: 25;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Rock Paper Scissors
+</h5>
+<div class="card-subtitle listing-subtitle">
+Frontend
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('SFRNTA=='); return false;">
+HTML
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Q1NT'); return false;">
+CSS
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('SmF2YVNjcmlwdA=='); return false;">
+JavaScript
+</div>
+</div>
+<div class="card-text listing-description">
+The Rock Paper Scissors game that can be played entirely in the console.
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="18" data-categories="SFRNTCUyQ0NTUyUyQ0phdmFTY3JpcHQ=" data-listing-date-sort="1723064400000" data-listing-file-modified-sort="1758377031235" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="25">
+<a href="./projects/full-stack-development/etch-a-sketch.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./utils/etch-a-sketch.png" class="thumbnail-image card-img" style="height: 25;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Etch A Sketch
+</h5>
+<div class="card-subtitle listing-subtitle">
+Frontend
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('SFRNTA=='); return false;">
+HTML
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Q1NT'); return false;">
+CSS
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('SmF2YVNjcmlwdA=='); return false;">
+JavaScript
+</div>
+</div>
+<div class="card-text listing-description">
+A browser version of something between a sketchpad and an Etch-A-Sketch.
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="19" data-categories="SFRNTCUyQ0NTUw==" data-listing-date-sort="1722978000000" data-listing-file-modified-sort="1758377054311" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="25">
+<a href="./projects/full-stack-development/landing-page.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./utils/landing-page.png" class="thumbnail-image card-img" style="height: 25;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Landing Page
+</h5>
+<div class="card-subtitle listing-subtitle">
+Frontend
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('SFRNTA=='); return false;">
+HTML
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Q1NT'); return false;">
+CSS
+</div>
+</div>
+<div class="card-text listing-description">
+A landing page.
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+
+
+
+</section>
+
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

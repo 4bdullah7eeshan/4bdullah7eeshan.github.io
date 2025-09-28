@@ -14,7 +14,7 @@
 <item>
   <title>Bid &amp; Proposals Toolkit</title>
   <dc:creator>Abdullah Zeeshan</dc:creator>
-  <link>https://4bdullah7eeshan.github.io/projects/bid-and-proposals-toolkit.html</link>
+  <link>https://4bdullah7eeshan.github.io/projects/bid-and-proposals/bid-and-proposals-toolkit.html</link>
   <description><![CDATA[ 
 
 
@@ -60,9 +60,88 @@
   <category>APMP</category>
   <category>Proposal</category>
   <category>Bid</category>
-  <guid>https://4bdullah7eeshan.github.io/projects/bid-and-proposals-toolkit.html</guid>
+  <guid>https://4bdullah7eeshan.github.io/projects/bid-and-proposals/bid-and-proposals-toolkit.html</guid>
   <pubDate>Fri, 19 Sep 2025 21:00:00 GMT</pubDate>
   <media:content url="https://4bdullah7eeshan.github.io/utils/bid-and-proposal-toolkit.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Messaging App</title>
+  <dc:creator>Abdullah Zeeshan</dc:creator>
+  <link>https://4bdullah7eeshan.github.io/projects/full-stack-development/messaging-app.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p><span class="listing-btn-group"> <a href="https://messaging-app-frontend-dusky.vercel.app/" class="btn"><i class="fa-solid fa-globe" aria-label="globe"></i> Live</a> <a href="https://github.com/4bdullah7eeshan/messaging-app-backend" class="btn"><iconify-icon inline="" icon="fa:github" aria-label="Icon github from fa Iconify.design set." title="Icon github from fa Iconify.design set."></iconify-icon> Backend</a> <a href="https://github.com/4bdullah7eeshan/messaging-app-frontend" class="btn"><iconify-icon inline="" icon="fa:github" aria-label="Icon github from fa Iconify.design set." title="Icon github from fa Iconify.design set."></iconify-icon> Frontend</a> </span></p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Project Description will be added soon.</p>
+</div>
+</div>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
+  <category>Node.js</category>
+  <category>Express</category>
+  <category>PostgreSQL</category>
+  <category>Prisma ORM</category>
+  <category>REST API</category>
+  <category>JWT</category>
+  <category>Passport</category>
+  <category>React</category>
+  <category>Tailwind</category>
+  <guid>https://4bdullah7eeshan.github.io/projects/full-stack-development/messaging-app.html</guid>
+  <pubDate>Wed, 04 Dec 2024 21:00:00 GMT</pubDate>
+  <media:content url="https://4bdullah7eeshan.github.io/utils/messaging-app.png" medium="image" type="image/png" height="81" width="144"/>
+</item>
+<item>
+  <title>Blog API</title>
+  <dc:creator>Abdullah Zeeshan</dc:creator>
+  <link>https://4bdullah7eeshan.github.io/projects/full-stack-development/blog-api.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p><span class="listing-btn-group"> <a href="https://github.com/4bdullah7eeshan/blog-api/" class="btn"><iconify-icon inline="" icon="fa:github" aria-label="Icon github from fa Iconify.design set." title="Icon github from fa Iconify.design set."></iconify-icon> Source Code</a> <a href="https://4bdullah7eeshan.github.io/blog-frontend-user/" class="btn"><i class="fa-solid fa-globe" aria-label="globe"></i> Live Viewing Site (Sample)</a> <a href="https://4bdullah7eeshan.github.io/blog-frontend-author/" class="btn"><i class="fa-solid fa-globe" aria-label="globe"></i> Live Authoring Site (Sample)</a> </span></p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Project Description will be added soon.</p>
+</div>
+</div>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
+  <category>Node.js</category>
+  <category>Express</category>
+  <category>PostgreSQL</category>
+  <category>Prisma ORM</category>
+  <category>REST API</category>
+  <category>JWT</category>
+  <category>Passport</category>
+  <guid>https://4bdullah7eeshan.github.io/projects/full-stack-development/blog-api.html</guid>
+  <pubDate>Sun, 10 Nov 2024 21:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
