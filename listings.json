@@ -10,6 +10,7 @@
       "/posts/how-to-run-a-linux-subsystem-in-windows/index.html",
       "/posts/teaching-ai-some-geography/continents_classifier.html",
       "/posts/frolicking-with-ai-generated-art/index.html",
+      "/projects/bid-and-proposals/isdb-proposal-preparation.html",
       "/projects/bid-and-proposals/bid-and-proposals-toolkit.html",
       "/projects/full-stack-development/messaging-app.html",
       "/projects/full-stack-development/blog-api.html",
@@ -49,6 +50,7 @@
   {
     "listing": "/projects.html",
     "items": [
+      "/projects/bid-and-proposals/isdb-proposal-preparation.html",
       "/projects/bid-and-proposals/bid-and-proposals-toolkit.html",
       "/projects/full-stack-development/messaging-app.html",
       "/projects/full-stack-development/blog-api.html",
