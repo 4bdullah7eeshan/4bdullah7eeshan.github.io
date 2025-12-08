@@ -71,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-posts .list');
+    const listingTargetEl = window.document.querySelector('#listing-tools-and-templates .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
@@ -84,35 +84,7 @@ ul.task-list li input[type="checkbox"] {
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-posts'] = new List('listing-posts', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-projects .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-projects'] = new List('listing-projects', options);
+    window['quarto-listings']['listing-tools-and-templates'] = new List('listing-tools-and-templates', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -176,16 +148,20 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./blog.html"> 
-<span class="menu-text">Blog</span></a>
+    <a class="nav-link" href="./tools-and-templates.html"> 
+<span class="menu-text">Tools &amp; Templates</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="https://4bdullah7eeshan.github.io/notes"> 
+<span class="menu-text">Notes</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./projects.html"> 
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="https://4bdullah7eeshan.github.io/notes"> 
-<span class="menu-text">Notes</span></a>
+    <a class="nav-link" href="./blog.html"> 
+<span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./about.html"> 
@@ -237,14 +213,13 @@ window.Quarto = {
 <script type="text/javascript" async="" src="//cdn.credly.com/assets/utilities/embed.js"></script>
 <hr>
 </section>
-<div class="grid">
-<section id="recent-posts" class="level2 g-col-12 g-col-md-6">
-<h2 data-anchor-id="recent-posts">Recent Posts</h2>
-<div id="listing-posts" class="quarto-listing quarto-listing-container-table">
+<section id="recent-tools-templates" class="level2">
+<h2 data-anchor-id="recent-tools-templates">Recent Tools &amp; Templates</h2>
+<div id="listing-tools-and-templates" class="quarto-listing quarto-listing-container-table">
 <div class="listing-actions-group">
    <div class="input-group input-group-sm quarto-listing-sort">
      <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-posts-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-posts'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+     <select id="listing-tools-and-templates-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-tools-and-templates'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
        <option value="" disabled="" selected="" hidden="">Order By</option>
        <option value="index" data-direction="asc">Default</option>
          <option value="listing-date-sort" data-direction="asc">
@@ -281,95 +256,34 @@ window.Quarto = {
 </tr>
 </thead>
 <tbody class="list">
-<tr data-index="0" data-categories="YmlkJTJDcHJvcG9zYWwlMkNleGVjdXRpdmUlMjBzdW1tYXJ5" data-listing-date-sort="1758315600000" data-listing-file-modified-sort="1758372066147" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="357" data-listing-title-sort="How to craft an Executive Summary that wins?" data-listing-filename-sort="index.qmd">
+<tr data-index="0" data-categories="c21lJTJDaW50ZXJ2aWV3" data-listing-date-sort="1765054800000" data-listing-file-modified-sort="1765182256178" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="17" data-listing-title-sort="SME Interview Tracker" data-listing-filename-sort="index.qmd">
 <td>
-<span class="listing-date">Sep 20, 2025</span>
+<span class="listing-date">Dec 7, 2025</span>
 </td>
 <td>
-<a href="./posts/how-to-craft-an-executive-summary-that-wins/index.html" class="title listing-title">How to craft an Executive Summary that wins?</a>
-</td>
-<td>
-<span class="listing-author">Abdullah Zeeshan</span>
-</td>
-</tr>
-<tr data-index="1" data-categories="YmlkJTJDcHJvcG9zYWwlMkNhY3Rpb24lMjBjYXB0aW9u" data-listing-date-sort="1758056400000" data-listing-file-modified-sort="1758371771067" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="183" data-listing-title-sort="How to write Action Captions on graphics of proposals?" data-listing-filename-sort="index.qmd">
-<td>
-<span class="listing-date">Sep 17, 2025</span>
-</td>
-<td>
-<a href="./posts/how-to-write-action-captions-on-graphics-of-proposals/index.html" class="title listing-title">How to write Action Captions on graphics of proposals?</a>
+<a href="./tools-and-templates/sme-interview-tracker/index.html" class="title listing-title">SME Interview Tracker</a>
 </td>
 <td>
 <span class="listing-author">Abdullah Zeeshan</span>
 </td>
 </tr>
-<tr data-index="2" data-categories="YmxvZyUyQ3F1YXJ0bw==" data-listing-date-sort="1741726800000" data-listing-file-modified-sort="1758102587833" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="30" data-listing-title-sort="How to publish a Quarto blog post with GitHub Pages?" data-listing-filename-sort="index.qmd">
+<tr data-index="1" data-categories="Y3VzdG9tZXI=" data-listing-date-sort="1763499600000" data-listing-file-modified-sort="1765188045735" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="18" data-listing-title-sort="Key Information Summary Sheet" data-listing-filename-sort="index.qmd">
 <td>
-<span class="listing-date">Mar 12, 2025</span>
+<span class="listing-date">Nov 19, 2025</span>
 </td>
 <td>
-<a href="./posts/how-to-publish-a-quarto-blog-post-with-github-pages/index.html" class="title listing-title">How to publish a Quarto blog post with GitHub Pages?</a>
+<a href="./tools-and-templates/key-information-summary-sheet/index.html" class="title listing-title">Key Information Summary Sheet</a>
 </td>
 <td>
 <span class="listing-author">Abdullah Zeeshan</span>
 </td>
 </tr>
-</tbody>
-</table>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-</section>
-<section id="recent-projects" class="level2 g-col-12 g-col-md-6">
-<h2 data-anchor-id="recent-projects">Recent Projects</h2>
-<div id="listing-projects" class="quarto-listing quarto-listing-container-table">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-projects-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-projects'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-       <option value="" disabled="" selected="" hidden="">Order By</option>
-       <option value="index" data-direction="asc">Default</option>
-         <option value="listing-date-sort" data-direction="asc">
-          Date - Oldest
-        </option>
-         <option value="listing-date-sort" data-direction="desc">
-          Date - Newest
-        </option>
-         <option value="listing-title-sort" data-direction="asc">
-          Title
-        </option>
-         <option value="listing-author" data-direction="asc">
-          Author
-        </option>
-     </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
-</div>
-<table class="quarto-listing-table table table-striped">
-<thead>
-<tr>
-<th>
-<a class="sort" data-sort="listing-date-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Date</a>
-</th>
-<th>
-<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Title</a>
-</th>
-<th>
-<a class="sort" data-sort="listing-author" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Author</a>
-</th>
-</tr>
-</thead>
-<tbody class="list">
-<tr data-index="0" data-categories="UkZQJTIwQW5hbHlzaXMlMkNDb21wbGlhbmNlJTIwTWF0cml4JTJDRXhlY3V0aXZlJTIwU3VtbWFyeSUyQ1RlY2huaWNhbCUyMFByb3Bvc2FsJTJDQ29tbWVyY2lhbCUyMFByb3Bvc2Fs" data-listing-date-sort="1766350800000" data-listing-file-modified-sort="1764883112673" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="Islamic Development Bank (IsDB) RFP Response" data-listing-filename-sort="isdb-proposal-preparation.qmd">
+<tr data-index="2" data-categories="YmNtJTJDbWF0cml4" data-listing-date-sort="1763154000000" data-listing-file-modified-sort="1765186064743" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="18" data-listing-title-sort="Bidder Comparision Matrix (BCM)" data-listing-filename-sort="index.qmd">
 <td>
-<span class="listing-date">Dec 22, 2025</span>
+<span class="listing-date">Nov 15, 2025</span>
 </td>
 <td>
-<a href="./projects/bid-and-proposals/isdb-proposal-preparation.html" class="title listing-title">Islamic Development Bank (IsDB) RFP Response</a>
+<a href="./tools-and-templates/bidder-comparision-matrix/index.html" class="title listing-title">Bidder Comparision Matrix (BCM)</a>
 </td>
 <td>
 <span class="listing-author">Abdullah Zeeshan</span>
@@ -381,10 +295,9 @@ No matching items
 No matching items
 </div>
 </div>
+
+
 </section>
-</div>
-
-
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> 
   <hr class="about-sep">
    <div class="about-links">

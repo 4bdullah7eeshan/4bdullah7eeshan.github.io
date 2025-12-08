@@ -1,50 +1,56 @@
 [
   {
-    "listing": "/index.html",
-    "items": [
-      "/posts/how-to-craft-an-executive-summary-that-wins/index.html",
-      "/posts/how-to-write-action-captions-on-graphics-of-proposals/index.html",
-      "/posts/how-to-publish-a-quarto-blog-post-with-github-pages/index.html",
-      "/posts/segmentation/segmentation.html",
-      "/posts/colored-cups/index.html",
-      "/posts/how-to-run-a-linux-subsystem-in-windows/index.html",
-      "/posts/teaching-ai-some-geography/continents_classifier.html",
-      "/posts/frolicking-with-ai-generated-art/index.html",
-      "/projects/bid-and-proposals/isdb-proposal-preparation.html",
-      "/projects/bid-and-proposals/bid-and-proposals-toolkit.html",
-      "/projects/full-stack-development/messaging-app.html",
-      "/projects/full-stack-development/blog-api.html",
-      "/projects/full-stack-development/file-uploader.html",
-      "/projects/full-stack-development/shopping-cart.html",
-      "/projects/full-stack-development/memory-card.html",
-      "/projects/full-stack-development/cv-application.html",
-      "/projects/full-stack-development/members-only.html",
-      "/projects/full-stack-development/inventory-application.html",
-      "/projects/full-stack-development/battleship.html",
-      "/projects/full-stack-development/weather-app.html",
-      "/projects/full-stack-development/todo-list.html",
-      "/projects/full-stack-development/tic-tac-toe.html",
-      "/projects/full-stack-development/e-shop-site.html",
-      "/projects/full-stack-development/library.html",
-      "/projects/full-stack-development/homepage.html",
-      "/projects/full-stack-development/sign-up-form.html",
-      "/projects/full-stack-development/calculator.html",
-      "/projects/full-stack-development/etch-a-sketch.html",
-      "/projects/full-stack-development/rock-paper-scissors.html",
-      "/projects/full-stack-development/landing-page.html"
-    ]
-  },
-  {
     "listing": "/blog.html",
     "items": [
       "/posts/how-to-craft-an-executive-summary-that-wins/index.html",
       "/posts/how-to-write-action-captions-on-graphics-of-proposals/index.html",
       "/posts/how-to-publish-a-quarto-blog-post-with-github-pages/index.html",
+      "/posts/how-to-interview-an-sme/index.html",
       "/posts/segmentation/segmentation.html",
       "/posts/colored-cups/index.html",
       "/posts/how-to-run-a-linux-subsystem-in-windows/index.html",
       "/posts/teaching-ai-some-geography/continents_classifier.html",
       "/posts/frolicking-with-ai-generated-art/index.html"
+    ]
+  },
+  {
+    "listing": "/tools-and-templates.html",
+    "items": [
+      "/tools-and-templates/bid-pursuit-decision/index.html",
+      "/tools-and-templates/bid-validation-decision/index.html",
+      "/tools-and-templates/bid-no-bid-decision/index.html",
+      "/tools-and-templates/bidder-comparision-matrix/index.html",
+      "/tools-and-templates/business-development-lifecycle/index.html",
+      "/tools-and-templates/compliance-matrix/index.html",
+      "/tools-and-templates/customer-contact-plan/index.html",
+      "/tools-and-templates/final-review/index.html",
+      "/tools-and-templates/key-information-summary-sheet/index.html",
+      "/tools-and-templates/opportunity-qualification-decision/index.html",
+      "/tools-and-templates/proposal-section-content-plan/index.html",
+      "/tools-and-templates/raci-matrix/index.html",
+      "/tools-and-templates/rfp-customer-q-n-a-tracker/index.html",
+      "/tools-and-templates/sme-interview-tracker/index.html",
+      "/tools-and-templates/swot-analysis/index.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/tools-and-templates/sme-interview-tracker/index.html",
+      "/tools-and-templates/key-information-summary-sheet/index.html",
+      "/tools-and-templates/bidder-comparision-matrix/index.html",
+      "/tools-and-templates/customer-contact-plan/index.html",
+      "/tools-and-templates/proposal-section-content-plan/index.html",
+      "/tools-and-templates/compliance-matrix/index.html",
+      "/tools-and-templates/swot-analysis/index.html",
+      "/tools-and-templates/raci-matrix/index.html",
+      "/tools-and-templates/rfp-customer-q-n-a-tracker/index.html",
+      "/tools-and-templates/business-development-lifecycle/index.html",
+      "/tools-and-templates/bid-validation-decision/index.html",
+      "/tools-and-templates/final-review/index.html",
+      "/tools-and-templates/bid-no-bid-decision/index.html",
+      "/tools-and-templates/opportunity-qualification-decision/index.html",
+      "/tools-and-templates/bid-pursuit-decision/index.html"
     ]
   },
   {
